@@ -1,5 +1,7 @@
 const contentful = require('contentful')
 
+console.log(process.env.CTFL_SPACE)
+
 module.exports = {
   createClient() {
     return contentful.createClient({

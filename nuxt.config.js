@@ -56,18 +56,18 @@ export default {
   build: {},
 
   generate: {
-    // routes() {
-    //   const client = createClient()
-    //   return client
-    //     .getEntries({ content_type: process.env.CTFL_CONTENT_TYPE_POST })
-    //     .then((entries) => {
-    //       return entries.items.map((entry) => {
-    //         return {
-    //           route: '/blog/' + entry.sys.id,
-    //           payload: entry,
-    //         }
-    //       })
-    //     })
-    // },
+    routes() {
+      const client = createClient()
+      return client
+        .getEntries({ content_type: process.env.CTFL_CONTENT_TYPE_POST })
+        .then((entries) => {
+          return entries.items.map((entry) => {
+            return {
+              route: '/blog/' + entry.sys.id,
+              payload: entry,
+            }
+          })
+        })
+    },
   },
 }
