@@ -1,9 +1,9 @@
 import { createClient } from './plugins/contentful.js'
-const environment = process.env.NODE_ENV || 'development'
-const envSet = require(`./env.${environment}.js`)
+// const environment = process.env.NODE_ENV || 'development'
+// const envSet = require(`./env.${environment}.js`)
 
 export default {
-  env: envSet,
+  // env: envSet,
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
