@@ -2,14 +2,17 @@ import { createClient } from './plugins/contentful.js'
 const environment = process.env.NODE_ENV || 'development'
 let envSet
 
+console.log(environment)
+
 if (!process.env.NETLIFY) {
   envSet = require(`./env.${environment}.js`)
 }
+console.log(envSet)
 
 export default {
   env: envSet,
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  ssr: true,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -18,7 +21,7 @@ export default {
   head: {
     title: 'yorocco',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'ja',
     },
     meta: [
       { charset: 'utf-8' },

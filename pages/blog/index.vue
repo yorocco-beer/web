@@ -14,7 +14,7 @@ import { createClient } from '~/plugins/contentful.js'
 
 const client = createClient()
 export default {
-  async asyncData() {
+  async asyncData({ payload }) {
     // 記事一覧を取得
     const entries = await client.getEntries({
       content_type: process.env.CTFL_CONTENT_TYPE_POST,
