@@ -1,9 +1,9 @@
 import { createClient } from './plugins/contentful.js'
 const environment = process.env.NODE_ENV || 'development'
-let envSet = require(`./env.${environment}.js`)
+let envSet
 
-if (process.env.NETLIFY) {
-  envSet = {}
+if (!process.env.NETLIFY) {
+  envSet = require(`./env.${environment}.js`)
 }
 
 export default {
