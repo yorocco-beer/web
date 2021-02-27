@@ -1,10 +1,27 @@
 <template>
   <div>
+    <my-header></my-header>
     <Nuxt />
   </div>
 </template>
 
-<style>
+<script lang="ts">
+import { defineComponent, ref } from '@vue/composition-api'
+import MyHeader from '~/components/Header.vue'
+
+export default defineComponent({
+  components: {
+    MyHeader,
+  },
+  setup() {
+    const test = ref('this is message')
+    return {
+      test,
+    }
+  },
+})
+</script>
+<style lang="scss">
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -15,6 +32,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  text-rendering: auto;
+  background-color: #f7f6fb;
 }
 
 *,

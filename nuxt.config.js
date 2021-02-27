@@ -2,12 +2,9 @@ import { createClient } from './plugins/contentful.js'
 const environment = process.env.NODE_ENV || 'development'
 let envSet
 
-console.log(environment)
-
 if (!process.env.NETLIFY) {
   envSet = require(`./env.${environment}.js`)
 }
-console.log(envSet)
 
 export default {
   env: envSet,
@@ -35,7 +32,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['@/plugins/composition-api'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
