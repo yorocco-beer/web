@@ -8,18 +8,12 @@ html {
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: $base-font-size;
+  font-size: 10px;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI',
     'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', Meiryo, sans-serif;
-  background-color: $bg-color-base;
-  color: $text-color-base;
-
-  &.footer-2 {
-    background-color: $grey2;
-  }
 }
 
 a,
