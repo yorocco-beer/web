@@ -1,5 +1,11 @@
 <template>
-  <div class="container">hoge hoge</div>
+  <div class="container">
+    <swiper>
+      <swiper-slide
+        ><img src="~/assets/images/main/img1.jpg" alt=""
+      /></swiper-slide>
+    </swiper>
+  </div>
 </template>
 
 <script lang="ts">

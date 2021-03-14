@@ -33,26 +33,37 @@ export default defineComponent({
   },
 })
 </script>
-<style lang="scss">
-.l-header {
-  position: relative;
-  height: 285px;
-  background-color: #fff;
-  border-bottom: none;
-  margin-bottom: 30px;
-  .l-header__logo {
-    width: 390px;
-    position: absolute;
-    top: 114px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .l-header__toggle {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 30px;
-    left: 35px;
-  }
-}
+// <style lang="scss">
+// .l-header {
+//   position: relative;
+//   .l-header__inne {
+//     display: flex;
+//     padding: 22px 20px;
+//     flex-flow: row nowrap;
+//     align-items: center;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     z-index: 10;
+//     background: #f1efe9;
+//     box-shadow: 0 0 15px 20px #f1efe9;
+//     backface-visibility: hidden;
+//   }
+//   .l-header__logo {
+//     width: 390px;
+//     position: absolute;
+//     top: 114px;
+//     left: 50%;
+//     transform: translateX(-50%);
+//   }
+//   .l-header__toggle {
+//     width: 40px;
+//     height: 40px;
+//     position: absolute;
+//     top: 30px;
+//     left: 35px;
+//   }
+// }
+//
 </style>
