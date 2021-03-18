@@ -36,10 +36,10 @@ export default {
         href:
           'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css',
       },
-      // {
-      //   rel: 'stylesheet',
-      //   href: 'https://cdn.linearicons.com/free/1.0.0/icon-font.min.css',
-      // },
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/swiper/swiper-bundle.min.css',
+      },
     ],
   },
 
