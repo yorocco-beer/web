@@ -8,7 +8,10 @@
             <div class="top-logo-area">
               <div class="logo text-md-center">
                 <a href="index.html"
-                  ><img src="@/assets/images/logo.svg" width="180px" alt=""
+                  ><img
+                    src="@/assets/images/main/logo.png"
+                    width="180px"
+                    alt=""
                 /></a>
               </div>
             </div>
@@ -20,7 +23,7 @@
               class="header-right-items content__hidden d-none d-md-block"
             ></div>
             <div class="logo__hidden text-left">
-              <a href="#"><img src="@/assets/images/logo.svg" alt="" /></a>
+              <a href="#"><img src="@/assets/images/main/logo.png" alt="" /></a>
             </div>
           </div>
 
