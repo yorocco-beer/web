@@ -5,7 +5,7 @@
         <div class="col-12">
           <swiper ref="mySwiper">
             <swiper-slide
-              ><img src="~/assets/images/main/img1.jpg" alt=""
+              ><img src="~/assets/images/main/4.jpg" alt=""
             /></swiper-slide>
             <swiper-slide
               ><img src="~/assets/images/main/2.jpg" alt=""
