@@ -5,13 +5,13 @@
         <div class="col-12">
           <swiper ref="mySwiper">
             <swiper-slide
-              ><img src="~/assets/images/main/4.jpg" alt=""
+              ><img width="100%" src="~/assets/images/main/4.jpg" alt=""
             /></swiper-slide>
             <swiper-slide
-              ><img src="~/assets/images/main/2.jpg" alt=""
+              ><img width="100%" src="~/assets/images/main/2.jpg" alt=""
             /></swiper-slide>
             <swiper-slide
-              ><img src="~/assets/images/main/3.jpg" width="100%" alt=""
+              ><img width="100%" src="~/assets/images/main/3.jpg" alt=""
             /></swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
           </swiper>
