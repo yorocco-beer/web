@@ -17,16 +17,13 @@
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">
-                  <a
-                    href="/products/beer/ybap_blueberry_saison"
-                    class="product-thumbnail"
-                  >
+                  <a href="/ybap_blueberry_saison" class="product-thumbnail">
                     <img src="@/assets/images/beer/1.jpg" alt="" />
                   </a>
                 </div>
                 <div class="product-content">
                   <h6 class="prodect-title">
-                    <a href="/products/beer/ybap_blueberry_saison/"
+                    <a href="/ybap_blueberry_saison/"
                       >Y/B/A/P #001<br />
                       Blueberry Saison
                     </a>

@@ -40,6 +40,15 @@ export default {
         rel: 'stylesheet',
         href: 'https://unpkg.com/swiper/swiper-bundle.min.css',
       },
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap',
+      },
     ],
   },
 
