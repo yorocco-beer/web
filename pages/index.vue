@@ -2,24 +2,24 @@
   <div id="main-wrapper">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 section-space--pb_120">
           <swiper ref="mySwiper">
             <swiper-slide
-              ><img width="100%" src="~/assets/images/main/4.jpg" alt=""
+              ><img width="100%" src="~/assets/images/main/img1.jpg" alt=""
             /></swiper-slide>
-            <swiper-slide
+            <!-- <swiper-slide
               ><img width="100%" src="~/assets/images/main/2.jpg" alt=""
             /></swiper-slide>
             <swiper-slide
               ><img width="100%" src="~/assets/images/main/3.jpg" alt=""
-            /></swiper-slide>
+            /></swiper-slide> -->
             <div class="swiper-pagination" slot="pagination"></div>
           </swiper>
         </div>
       </div>
     </div>
 
-    <div class="about-us-area section-space--pb_120 section-space--pt_60">
+    <!-- <div class="about-us-area section-space--pb_120 section-space--pt_60">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -30,9 +30,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <my-beer></my-beer>
+    <!-- <my-beer></my-beer> -->
   </div>
 </template>
 

@@ -145,6 +145,11 @@
     .prodect-title {
       font-size: 16px;
       margin-bottom: 5px;
+      letter-spacing: 0.9px;
+      .sub {
+        display: block;
+        font-size: 12px;
+      }
     }
     .prodect-price {
       span {

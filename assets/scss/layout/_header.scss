@@ -38,7 +38,7 @@
 }
 
 .top-logo-area {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #e2ded1;
   margin-top: 50px;
   padding-bottom: 50px;
 }
@@ -542,11 +542,16 @@
       & > a {
         display: block;
         color: $black;
-        padding: 36px 2px;
+        padding: 26px 2px;
         position: relative;
-        font-size: 16px;
-        font-weight: 500;
+        font-size: 13px;
+        font-weight: 800;
         line-height: 1.18;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 0.9px;
+        &:hover {
+          color: #dcb14a;
+        }
       }
 
       &.has-children {

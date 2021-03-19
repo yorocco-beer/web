@@ -1,5 +1,5 @@
 <template>
-  <div class="header-area header-area--default bg-white">
+  <div class="header-area header-area--default">
     <!-- Header Bottom Wrap Start -->
     <header class="header-area header-sticky">
       <div class="container-fluid container-fluid--cp-100">
@@ -23,7 +23,9 @@
               class="header-right-items content__hidden d-none d-md-block"
             ></div>
             <div class="logo__hidden text-left">
-              <a href="#"><img src="@/assets/images/main/logo.png" alt="" /></a>
+              <a href="#"
+                ><img src="@/assets/images/logo.svg" width="120px" alt=""
+              /></a>
             </div>
           </div>
 
@@ -32,11 +34,13 @@
             <div class="header__navigation d-none d-lg-block">
               <nav class="navigation-menu">
                 <ul class="justify-content-center">
-                  <li class="has-children has-children--multilevel-submenu">
-                    <a href="#"><span>Beers</span></a>
+                  <li>
+                    <NuxtLink to="/beers"><span>BEERS</span></NuxtLink>
                   </li>
-                  <li class="has-children">
-                    <a href="#"><span>OnLine Shop</span></a>
+                  <li>
+                    <a href="https://yorocco-beer.stores.jp/"
+                      ><span>ONLINE SHOP</span></a
+                    >
                   </li>
                   <!-- <li class="has-children has-children--multilevel-submenu">
                     <a href="#"><span>Pages</span></a>
