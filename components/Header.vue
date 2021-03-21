@@ -1,13 +1,17 @@
 <template>
   <div class="header-area header-area--default">
     <!-- Header Bottom Wrap Start -->
-    <header class="header-area header-sticky">
+    <header
+      class="header-area header-sticky"
+      :class="{ 'is-sticky': isSticky }"
+      ref="sticky"
+    >
       <div class="container-fluid container-fluid--cp-100">
         <div class="row">
           <div class="col-lg-12 d-none d-md-block">
             <div class="top-logo-area">
               <div class="logo text-md-center">
-                <a href="index.html"
+                <a href="/"
                   ><img
                     src="@/assets/images/main/logo.png"
                     width="180px"
@@ -23,7 +27,7 @@
               class="header-right-items content__hidden d-none d-md-block"
             ></div>
             <div class="logo__hidden text-left">
-              <a href="#"
+              <a href="/"
                 ><img src="@/assets/images/logo.svg" width="120px" alt=""
               /></a>
             </div>
@@ -72,13 +76,30 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api'
+import { defineComponent, onMounted, ref } from '@vue/composition-api'
 
 export default defineComponent({
   setup() {
-    const test = ref('this is message')
+    const sticky = ref<HTMLDivElement>()
+    const isSticky = ref(false)
+    onMounted(() => {
+      window.addEventListener('scroll', (ev) => {
+        var scroll = window.scrollY
+        const headerHeight = sticky.value?.clientHeight
+          ? sticky.value?.clientHeight
+          : 0
+        if (window.innerWidth >= 320) {
+          if (scroll < headerHeight) {
+            isSticky.value = false
+          } else {
+            isSticky.value = true
+          }
+        }
+      })
+    })
     return {
-      test,
+      isSticky,
+      sticky,
     }
   },
 })

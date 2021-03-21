@@ -9,7 +9,10 @@
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">
-                  <a href="/ybap_blueberry_saison" class="product-thumbnail">
+                  <a
+                    href="/beers/ybap_blueberry_saison"
+                    class="product-thumbnail"
+                  >
                     <img src="@/assets/images/beer/thumb1.jpg" alt="" />
                   </a>
                 </div>
@@ -28,13 +31,16 @@
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">
-                  <a href="product-details.html" class="product-thumbnail">
+                  <a
+                    href="/beers/ybap_blueberry_saison"
+                    class="product-thumbnail"
+                  >
                     <img src="@/assets/images/beer/thumb2.jpg" alt="" />
                   </a>
                 </div>
                 <div class="product-content">
                   <h6 class="prodect-title">
-                    <a href="product-details.html"
+                    <a href="/beers/ybap_blueberry_saison"
                       ><span class="sub">Y/B/A/P #002</span>
                       Plum Plum Bon
                     </a>
@@ -47,13 +53,16 @@
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">
-                  <a href="product-details.html" class="product-thumbnail">
+                  <a
+                    href="/beers/ybap_blueberry_saison"
+                    class="product-thumbnail"
+                  >
                     <img src="@/assets/images/beer/thumb3.jpg" alt="" />
                   </a>
                 </div>
                 <div class="product-content">
                   <h6 class="prodect-title">
-                    <a href="product-details.html"
+                    <a href="/beers/ybap_blueberry_saison"
                       ><span class="sub">Y/B/A/P #003</span>
                       Dry Hopped Brett Saison
                     </a>
@@ -66,13 +75,16 @@
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">
-                  <a href="product-details.html" class="product-thumbnail">
+                  <a
+                    href="/beers/ybap_blueberry_saison"
+                    class="product-thumbnail"
+                  >
                     <img src="@/assets/images/beer/thumb4.jpg" alt="" />
                   </a>
                 </div>
                 <div class="product-content">
                   <h6 class="prodect-title">
-                    <a href="product-details.html"
+                    <a href="/beers/ybap_blueberry_saison"
                       ><span class="sub">Y/B/A/P #004</span>
                       Blueberry Prana
                     </a>

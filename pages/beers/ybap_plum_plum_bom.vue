@@ -2,20 +2,20 @@
   <div id="main-wrapper">
     <div class="single-product-wrap">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-5">
+        <div class="row">
+          <div class="col-12 mb-40">
             <img
               src="@/assets/images/beer/1.jpg"
               class="img-fluid center"
               alt=""
             />
           </div>
-          <div class="col-10 mt-40">
+          <div class="col-12">
             <div class="product-details-content">
-              <header class="font-weight--reguler mb-20 text-center">
-                <h6>B/A/P #001</h6>
-                <h5>Blueberry Saison</h5>
-              </header>
+              <h5 class="font-weight--reguler mb-10">
+                Y/B/A/P #002<br />
+                Plum Plum Bon
+              </h5>
 
               <div class="quickview-peragraph mt-10">
                 <p>
@@ -88,10 +88,7 @@
 
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api'
-import Header from '~/components/Header.vue'
 
 export default defineComponent({})
 </script>
 
-
-Header

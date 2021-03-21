@@ -73,3 +73,10 @@ h3,
 h6 {
   font-weight: 500;
 }
+
+@media (max-width: 599px) {
+  .mainImg img {
+    height: 400px;
+    object-fit: cover;
+  }
+}
