@@ -3,14 +3,14 @@
     <div class="single-product-wrap">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-5">
+          <div class="col-md-5 col-sm-12">
             <img
               src="@/assets/images/beer/1.jpg"
               class="img-fluid center"
               alt=""
             />
           </div>
-          <div class="col-10 mt-40">
+          <div class="col-md-8 mt-40 col-sm-12">
             <div class="product-details-content">
               <header class="font-weight--reguler mb-20 text-center">
                 <h6>B/A/P #001</h6>
