@@ -58,7 +58,7 @@
               </div>
 
               <div class="product_socials section-space--mt_60 pb-20">
-                <span class="label">Share this items :</span>
+                <span class="label">Share :</span>
                 <ul class="helendo-social-share socials-inline">
                   <li>
                     <a
