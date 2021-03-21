@@ -305,6 +305,9 @@
 .product-details-content {
   p {
     font-size: 14px;
+    @media #{$large-mobile} {
+      font-size: 12px;
+    }
   }
 }
 

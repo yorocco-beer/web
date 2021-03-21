@@ -464,9 +464,14 @@ input[type='checkbox'] {
   padding-top: 36px;
   padding-bottom: 36px;
   background-size: cover;
-  @media #{$large-mobile,$tablet-device,$desktop-device} {
+  @media #{$tablet-device,$desktop-device} {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+  @media #{$large-mobile} {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px !important;
   }
 }
 

@@ -11,6 +11,9 @@
     font-family: 'Noto Sans JP', sans-serif;
   }
   dl {
+    @media #{$large-mobile} {
+      font-size: 14px;
+    }
     dt {
       float: left;
       font-weight: normal;
