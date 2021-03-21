@@ -10,6 +10,16 @@
   .quickview-peragraph {
     font-family: 'Noto Sans JP', sans-serif;
   }
+  dl {
+    dt {
+      float: left;
+      font-weight: normal;
+    }
+    dd {
+      margin-left: 5rem;
+      margin-bottom: 20px;
+    }
+  }
 }
 
 .product-details-thumbs-2 {

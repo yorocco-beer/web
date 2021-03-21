@@ -9,19 +9,19 @@
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">
-                  <a
-                    href="/beers/ybap_blueberry_saison"
+                  <NuxtLink
+                    to="/beers/ybap_blueberry_saison/"
                     class="product-thumbnail"
                   >
                     <img src="@/assets/images/beer/thumb1.jpg" alt="" />
-                  </a>
+                  </NuxtLink>
                 </div>
                 <div class="product-content">
                   <h6 class="prodect-title">
-                    <a href="/ybap_blueberry_saison/"
+                    <NuxtLink to="/beers/ybap_blueberry_saison/"
                       ><span class="sub">Y/B/A/P #001</span>
                       Blueberry Saison
-                    </a>
+                    </NuxtLink>
                   </h6>
                 </div>
               </div>
@@ -31,19 +31,19 @@
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">
-                  <a
-                    href="/beers/ybap_blueberry_saison"
+                  <NuxtLink
+                    to="/beers/ybap_plum_plum_bom"
                     class="product-thumbnail"
                   >
                     <img src="@/assets/images/beer/thumb2.jpg" alt="" />
-                  </a>
+                  </NuxtLink>
                 </div>
                 <div class="product-content">
                   <h6 class="prodect-title">
-                    <a href="/beers/ybap_blueberry_saison"
+                    <NuxtLink to="/beers/ybap_blueberry_saison/"
                       ><span class="sub">Y/B/A/P #002</span>
                       Plum Plum Bon
-                    </a>
+                    </NuxtLink>
                   </h6>
                 </div>
               </div>
@@ -53,19 +53,19 @@
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">
-                  <a
-                    href="/beers/ybap_blueberry_saison"
+                  <NuxtLink
+                    to="/beers/ybap_dry_hopped_brett_saison"
                     class="product-thumbnail"
                   >
                     <img src="@/assets/images/beer/thumb3.jpg" alt="" />
-                  </a>
+                  </NuxtLink>
                 </div>
                 <div class="product-content">
                   <h6 class="prodect-title">
-                    <a href="/beers/ybap_blueberry_saison"
+                    <NuxtLink to="/beers/ybap_dry_hopped_brett_saison"
                       ><span class="sub">Y/B/A/P #003</span>
                       Dry Hopped Brett Saison
-                    </a>
+                    </NuxtLink>
                   </h6>
                 </div>
               </div>
@@ -75,19 +75,19 @@
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">
-                  <a
-                    href="/beers/ybap_blueberry_saison"
+                  <NuxtLink
+                    to="/beers/ybap_blueberry_prana/"
                     class="product-thumbnail"
                   >
                     <img src="@/assets/images/beer/thumb4.jpg" alt="" />
-                  </a>
+                  </NuxtLink>
                 </div>
                 <div class="product-content">
                   <h6 class="prodect-title">
-                    <a href="/beers/ybap_blueberry_saison"
+                    <NuxtLink to="/beers/ybap_blueberry_prana/"
                       ><span class="sub">Y/B/A/P #004</span>
                       Blueberry Prana
-                    </a>
+                    </NuxtLink>
                   </h6>
                 </div>
               </div>
@@ -100,14 +100,7 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api'
+import { defineComponent } from '@vue/composition-api'
 
-export default defineComponent({
-  setup() {
-    const test = ref('this is message')
-    return {
-      test,
-    }
-  },
-})
+export default defineComponent({})
 </script>
