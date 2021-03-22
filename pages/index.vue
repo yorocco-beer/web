@@ -5,7 +5,8 @@
         <div class="col-12 section-space--pb_120">
           <div class="mainImg">
             <img
-              width="100%"
+              width="1080"
+              height="607"
               loading="lazy"
               src="~/assets/images/main/img1.jpg"
               alt=""

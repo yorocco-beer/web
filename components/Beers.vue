@@ -13,7 +13,12 @@
                     to="/beers/ybap_blueberry_saison/"
                     class="product-thumbnail"
                   >
-                    <img src="@/assets/images/beer/thumb1.jpg" alt="" />
+                    <img
+                      src="@/assets/images/beer/thumb1.jpg"
+                      alt=""
+                      width="263"
+                      height="245"
+                    />
                   </NuxtLink>
                 </div>
                 <div class="product-content">
@@ -35,7 +40,12 @@
                     to="/beers/ybap_plum_plum_bom"
                     class="product-thumbnail"
                   >
-                    <img src="@/assets/images/beer/thumb2.jpg" alt="" />
+                    <img
+                      src="@/assets/images/beer/thumb2.jpg"
+                      alt=""
+                      width="263"
+                      height="245"
+                    />
                   </NuxtLink>
                 </div>
                 <div class="product-content">
@@ -57,7 +67,12 @@
                     to="/beers/ybap_dry_hopped_brett_saison"
                     class="product-thumbnail"
                   >
-                    <img src="@/assets/images/beer/thumb3.jpg" alt="" />
+                    <img
+                      src="@/assets/images/beer/thumb3.jpg"
+                      alt=""
+                      width="263"
+                      height="245"
+                    />
                   </NuxtLink>
                 </div>
                 <div class="product-content">
@@ -79,7 +94,12 @@
                     to="/beers/ybap_blueberry_prana/"
                     class="product-thumbnail"
                   >
-                    <img src="@/assets/images/beer/thumb4.jpg" alt="" />
+                    <img
+                      src="@/assets/images/beer/thumb4.jpg"
+                      alt=""
+                      width="263"
+                      height="245"
+                    />
                   </NuxtLink>
                 </div>
                 <div class="product-content">
