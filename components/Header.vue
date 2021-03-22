@@ -42,16 +42,22 @@
                     <NuxtLink to="/beers"><span>BEERS</span></NuxtLink>
                   </li>
                   <li>
-                    <a href="https://yorocco-beer.stores.jp/"
+                    <a href="https://yorocco-beer.stores.jp/" target="_blank"
                       ><span>ONLINE SHOP</span></a
                     >
                   </li>
-                  <!-- <li class="has-children has-children--multilevel-submenu">
-                    <a href="#"><span>Pages</span></a>
+                  <li>
+                    <a href="https://yorocco-beer.blogspot.com/" target="_blank"
+                      ><span>BLOG</span></a
+                    >
                   </li>
-                  <li class="has-children has-children--multilevel-submenu">
-                    <a href="#"><span>Blog</span></a>
-                  </li> -->
+                  <li>
+                    <a
+                      href="https://yorocco-beer.blogspot.com/2020/09/blog-post.html"
+                      target="_blank"
+                      ><span>SHOP LIST</span></a
+                    >
+                  </li>
                 </ul>
               </nav>
             </div>
