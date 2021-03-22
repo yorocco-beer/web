@@ -16,14 +16,18 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'yorocco',
+    title: 'Yorocco Beer : An independent local brewery',
     htmlAttrs: {
       lang: 'ja',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'We are small/local craft brewery based in Kamakura Japan.',
+      },
     ],
     bodyAttrs: {
       class: 'box-home',
@@ -87,8 +91,11 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics',
   ],
-
+  googleAnalytics: {
+    id: 'G-BR64PD483W',
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
