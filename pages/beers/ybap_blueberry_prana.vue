@@ -128,7 +128,11 @@ export default defineComponent({
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:description', property: 'og:description', content: '' },
-      { hid: 'og:image', property: 'og:image', content: '画像のURL' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: `${process.env.BASE_URL}/opg/4.jpg`,
+      },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
