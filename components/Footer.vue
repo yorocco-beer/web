@@ -28,7 +28,7 @@
                     target="_blank"
                     aria-label="Instagram"
                   >
-                    <i class="social social_tumblr"></i>
+                    <i class="social social_instagram"></i>
                   </a>
                 </li>
               </ul>

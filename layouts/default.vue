@@ -7,6 +7,7 @@
       <i class="arrow-top icon-arrow-up"></i>
       <i class="arrow-bottom icon-arrow-up"></i>
     </a>
+    <menu-overlay></menu-overlay>
   </div>
 </template>
 
@@ -14,17 +15,13 @@
 import { defineComponent, ref } from '@vue/composition-api'
 import MyHeader from '~/components/Header.vue'
 import MyFooter from '~/components/Footer.vue'
+import MenuOverlay from '~/components/MenuOverlay.vue'
 
 export default defineComponent({
   components: {
     MyHeader,
     MyFooter,
-  },
-  setup() {
-    const test = ref('this is message')
-    return {
-      test,
-    }
+    MenuOverlay,
   },
 })
 </script>

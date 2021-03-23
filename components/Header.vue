@@ -69,6 +69,7 @@
                   href="#"
                   class="mobile-navigation-icon"
                   id="mobile-menu-trigger"
+                  @click="onOpenMenu"
                 >
                   <i class="icon-menu"></i>
                 </a>
@@ -103,7 +104,21 @@ export default defineComponent({
         }
       })
     })
+    const onOpenMenu = (e: Event) => {
+      e.preventDefault()
+      const menuOverlay = document.getElementById('mobile-menu-overlay')
+      if (menuOverlay) {
+        menuOverlay.classList.toggle('active')
+      }
+      document.body.classList.toggle('no-overflow')
+    }
+
+    // $("#mobile-menu-close-trigger").on('click', function(){
+    //     $("#mobile-menu-overlay").removeClass("active");
+    //     $body.removeClass('no-overflow');
+    // });
     return {
+      onOpenMenu,
       isSticky,
       sticky,
     }
