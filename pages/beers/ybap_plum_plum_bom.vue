@@ -108,10 +108,38 @@
 
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api'
-import Header from '~/components/Header.vue'
 
-export default defineComponent({})
+export default defineComponent({
+  head: {
+    title: 'Yorocco Beer : Y/B/A/P #002 Plum Plum Bom',
+    meta: [
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: `${process.env.BASE_URL}/beers/ybap_plum_plum_bom/`,
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Yorocco Beer : Y/B/A/P #002 Plum Plum Bom',
+      },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:description', property: 'og:description', content: '' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: `${process.env.BASE_URL}/ogp/2.jpg`,
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      { hid: 'og:site_name', property: 'og:site_name', content: '' },
+      { hid: 'og:locale', property: 'og:locale', content: 'ja_JP' },
+      { hid: 'fb:app_id', property: 'fb:app_id', content: '' },
+    ],
+  },
+})
 </script>
 
-
-Header

@@ -48,10 +48,6 @@ export default {
           'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css',
       },
       {
-        rel: 'stylesheet',
-        href: 'https://unpkg.com/swiper/swiper-bundle.min.css',
-      },
-      {
         rel: 'preconnect',
         href: 'https://fonts.gstatic.com',
       },
