@@ -27,7 +27,7 @@
               class="header-right-items content__hidden d-none d-md-block"
             ></div>
             <div class="logo__hidden text-left">
-              <a href="/"
+              <a class="d-block" href="/"
                 ><img src="@/assets/images/logo.svg" width="120px" alt=""
               /></a>
             </div>

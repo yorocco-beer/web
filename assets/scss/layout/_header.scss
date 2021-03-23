@@ -2,6 +2,13 @@
 =                05. Header Css               =
 ============================================= */
 
+.header-area--default {
+  height: 354px;
+  @media #{ $tablet-device, $large-mobile} {
+    height: 84px;
+  }
+}
+
 .header-sticky {
   &.is-sticky {
     position: fixed;
