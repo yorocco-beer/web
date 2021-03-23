@@ -30,6 +30,11 @@ export default {
         name: 'description',
         content: 'We are small/local craft brewery based in Kamakura Japan.',
       },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: `${process.env.BASE_URL}/opg/opg.png`,
+      },
     ],
     bodyAttrs: {
       class: 'box-home',
