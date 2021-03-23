@@ -131,7 +131,7 @@ export default defineComponent({
       {
         hid: 'og:image',
         property: 'og:image',
-        content: `${process.env.BASE_URL}/opg/4.jpg`,
+        content: `${process.env.BASE_URL}/ogp/4.jpg`,
       },
       {
         hid: 'twitter:card',

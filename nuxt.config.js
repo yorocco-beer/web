@@ -33,7 +33,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: `${process.env.BASE_URL}/opg/opg.png`,
+        content: `${process.env.BASE_URL}/ogp/ogp.png`,
       },
     ],
     bodyAttrs: {
