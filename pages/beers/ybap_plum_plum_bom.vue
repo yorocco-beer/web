@@ -28,7 +28,7 @@
         <div class="row justify-content-center">
           <div class="col-md-5 col-sm-12">
             <img
-              src="@/assets/images/beer/2.jpg"
+              v-lazy="require('@/assets/images/beer/2.jpg')"
               class="img-fluid center"
               alt=""
             />

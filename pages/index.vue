@@ -7,13 +7,9 @@
             <img
               width="1080"
               height="607"
-              v-lazy="require('~/assets/images/main/img1.jpg')"
+              v-lazy="require('@/assets/images/main/img1.jpg')"
             />
           </div>
-          <!-- <swiper ref="mySwiper">
-            <swiper-slide></swiper-slide>
-            <div class="swiper-pagination" slot="pagination"></div>
-          </swiper> -->
         </div>
       </div>
     </div>
