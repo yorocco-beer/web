@@ -306,10 +306,8 @@
 .product-details-content {
   p {
     font-size: 16px;
-    font-feature-settings: 'palt';
     @media #{$large-mobile} {
       font-size: 14px;
-      padding: 0 5vw;
     }
   }
 }

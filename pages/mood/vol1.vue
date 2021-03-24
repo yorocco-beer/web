@@ -29,15 +29,15 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-md-8 mt-40 col-sm-12">
-          <div class="product-details-content">
-            <header class="font-weight--reguler mb-20 text-center">
+          <div class="product-details-content text-center">
+            <header class="font-weight--reguler mb-20">
               <h5>甘エビと鰆のフリット サルサヴェルデ添え</h5>
-              <p>
+              <p class="en">
                 Fritto Spanish Mackerel &amp; Northern Shrimp with Salsa Verde
               </p>
             </header>
 
-            <div class="mood-content mt-10 text-center">
+            <div class="mood-content mt-10">
               <p class="mb-20">
                 サルサヴェルデをつくる。<br />
                 グリーンのハーブをさっと洗い、太い茎を取り除く。<br />
