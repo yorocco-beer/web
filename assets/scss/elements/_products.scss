@@ -305,9 +305,10 @@
 
 .product-details-content {
   p {
-    font-size: 14px;
+    font-size: 16px;
     @media #{$large-mobile} {
-      font-size: 12px;
+      font-size: 14px;
+      padding: 0 5vw;
     }
   }
 }

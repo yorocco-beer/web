@@ -95,6 +95,13 @@ export default {
         href: '/favicon-16x16.png',
       },
     ],
+    script: [
+      {
+        charset: 'utf-8',
+        src:
+          '//typesquare.com/3/tsst/script/ja/typesquare.js?s6dI9hHsrtw%3D&fadein=10',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

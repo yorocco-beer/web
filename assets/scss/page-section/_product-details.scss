@@ -4,11 +4,18 @@
 
 .product-details-content {
   margin: 0 auto;
+  font-family: 'A1 Gothic R';
+  letter-spacing: 0.9px;
   header {
     letter-spacing: 0.9px;
   }
-  .quickview-peragraph {
-    font-family: 'Noto Sans JP', sans-serif;
+
+  .mood-content {
+    font-size: 17px;
+  }
+  .en {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
   }
   dl {
     @media #{$large-mobile} {
