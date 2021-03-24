@@ -7,9 +7,7 @@
             <img
               width="1080"
               height="607"
-              loading="lazy"
-              src="~/assets/images/main/img1.jpg"
-              alt=""
+              v-lazy="require('~/assets/images/main/img1.jpg')"
             />
           </div>
           <!-- <swiper ref="mySwiper">
