@@ -22,49 +22,58 @@
     <div class="single-product-wrap">
       <div class="mood-main">
         <img
+          width="1480"
+          height="987"
           v-lazy="require('@/assets/images/mood/vol1.jpg')"
           class="img-fluid center"
           alt=""
         />
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-8 mt-40 col-sm-12">
-          <div class="product-details-content text-center">
-            <header class="font-weight--reguler mb-20">
-              <h5>甘エビと鰆のフリット サルサヴェルデ添え</h5>
-              <p class="en">
+        <div class="col-md-8 col-sm-12">
+          <div class="c-mood-content text-center">
+            <header class="c-mood-header">
+              <h1>甘エビと鰆のフリット サルサヴェルデ添え</h1>
+              <h2>
                 Fritto Spanish Mackerel &amp; Northern Shrimp with Salsa Verde
-              </p>
+              </h2>
             </header>
 
-            <div class="mood-content mt-10">
-              <p class="mb-20">
+            <div class="c-mood-text">
+              <p class="divider">・</p>
+              <p class="text">
                 サルサヴェルデをつくる。<br />
                 グリーンのハーブをさっと洗い、太い茎を取り除く。<br />
                 今回は香菜とフェンネル。<br />
                 アンチョビ、ナッツ、塩、きび砂糖、バルサミコ、オリーブオイルを入れフードプロセッサーにかける。
               </p>
-              <p class="mb-20">
+              <p class="text">
                 甘エビは頭と尻尾の剣をハサミで切る。<br />
                 体の殻を取っておく。<br />
                 鰆は適当な大きさに切り、塩を少々ふる。
               </p>
-              <p class="mb-20">
+              <p class="text">
                 衣をつくる。<br />
                 小麦粉、塩にビールを入れ柔らかめに混ぜる。<br />
                 ハーブがあればみじん切りにしていれる。
               </p>
-              <p class="mb-20">
+              <p class="text">
                 鰆はたっぷり、甘エビは体にだけ衣をつけ<br />180°cくらいの油で揚げる。
                 <br />
                 甘エビは体が先に揚がるのでトングなどを使いの頭をしっかり揚げる。
               </p>
-              <p class="mb-40">サルサヴェルデを添えていただく。</p>
-              <p class="mb-40">
-                Side
-                Dishes:挽肉と切り干し大根のトマト煮込み、プラムチーズとクラッカー
+              <p class="text">サルサヴェルデを添えていただく。</p>
+              <p class="divider">・</p>
+              <p class="side">
+                Side Dishes<br />
+                挽肉と切り干し大根のトマト煮込み、プラムチーズとクラッカー
               </p>
-              <span class="en">2021.3.23</span>
+              <p class="date">2021.3.23</p>
+              <p class="by">
+                Dishes : Ikuyo Segi
+                <br />
+                Picture : Yumi Saito
+              </p>
             </div>
           </div>
         </div>

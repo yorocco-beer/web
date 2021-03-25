@@ -1,0 +1,54 @@
+.c-mood-content {
+  padding-top: 69px;
+  letter-spacing: 0.9px;
+}
+
+.c-mood-header {
+  margin-bottom: 25px;
+  font-feature-settings: 'palt';
+  h1 {
+    color: #324851;
+    font-family: 'A1 Gothic R';
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    color: #324851;
+    font-size: 15px;
+    font-family: 'Mr De Haviland';
+    margin: 0;
+  }
+}
+
+.c-mood-text {
+  font-family: 'A1 Gothic R';
+  font-size: 14px;
+  line-height: 3;
+  padding: 0 5vw;
+  font-feature-settings: 'palt';
+  p.text {
+    color: #46211a;
+    margin-bottom: 20px;
+  }
+  .side {
+    font-size: 11px;
+    margin-bottom: 22px;
+    color: #818181;
+    line-height: 1.8;
+  }
+  .divider {
+    margin: 40px;
+  }
+  .date {
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: #818181;
+  }
+  .by {
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 150px;
+  }
+}

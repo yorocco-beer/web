@@ -12,17 +12,6 @@
     }
   }
 
-  .en {
-    font-size: 12px;
-    font-family: 'Open Sans', sans-serif !important;
-  }
-  .mood-content {
-    font-family: 'A1 Gothic R';
-    font-size: 16px;
-    line-height: 2rem;
-    padding: 0 5vw;
-    font-feature-settings: 'palt';
-  }
   dl {
     @media #{$large-mobile} {
       font-size: 14px;
