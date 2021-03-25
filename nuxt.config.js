@@ -59,12 +59,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap',
-      },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap',
+          'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap',
       },
       {
         rel: 'stylesheet',

@@ -37,7 +37,7 @@
               <div class="single-product-item text-center">
                 <div class="products-images">
                   <NuxtLink
-                    to="/beers/ybap_plum_plum_bom"
+                    to="/beers/ybap_plum_plum_bon"
                     class="product-thumbnail"
                   >
                     <img

@@ -19,7 +19,7 @@
                     target="_blank"
                     aria-label="Facebook"
                   >
-                    <i class="social social_twitter"></i>
+                    <i class="social social_facebook"></i>
                   </a>
                 </li>
                 <li class="item">
