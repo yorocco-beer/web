@@ -14,10 +14,10 @@
       <div class="mobile-menu-overlay__body">
         <nav class="offcanvas-navigation">
           <ul>
-            <li>
-              <a href="/">Home</a>
+            <li @click="onCloseMenu">
+              <NuxtLink to="/"><span>HOME</span></NuxtLink>
             </li>
-            <li>
+            <li @click="onCloseMenu">
               <NuxtLink to="/beers"><span>BEERS</span></NuxtLink>
             </li>
             <li>
