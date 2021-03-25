@@ -33,7 +33,10 @@
         <div class="col-md-8 col-sm-12">
           <div class="c-mood-content text-center">
             <header class="c-mood-header">
-              <h1>甘エビと鰆のフリット サルサヴェルデ添え</h1>
+              <h1>
+                甘エビと鰆のフリット <br />
+                サルサヴェルデ添え
+              </h1>
               <h2>
                 Fritto Spanish Mackerel &amp; Northern Shrimp with Salsa Verde
               </h2>
