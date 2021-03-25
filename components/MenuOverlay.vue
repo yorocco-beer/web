@@ -41,7 +41,6 @@
         </nav>
 
         <div class="mobile-menu-social-share section-space--mt_60">
-          <h6>SNS</h6>
           <ul class="social-share">
             <li>
               <a href="https://www.facebook.com/yoroccobeer" target="_blank"

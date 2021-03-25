@@ -123,7 +123,7 @@
   justify-content: flex-end;
   align-items: center;
   .header-right-items {
-    margin-right: 20px;
+    margin-right: 0px;
     a {
       font-size: 24px;
       &.mobile-navigation-icon {
@@ -916,11 +916,11 @@
             display: block;
             color: $black;
             padding-top: 18px;
-            font-size: 16px;
+            font-size: 13px;
             font-weight: 500;
             line-height: 1.5;
             transition: $transition--default;
-
+            letter-spacing: 0.9px;
             &:hover {
               color: #666;
             }
