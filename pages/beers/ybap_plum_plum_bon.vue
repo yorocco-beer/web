@@ -111,17 +111,17 @@ import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
   head: {
-    title: 'Yorocco Beer : Y/B/A/P #002 Plum Plum Bom',
+    title: 'Yorocco Beer : Y/B/A/P #002 Plum Plum Bon',
     meta: [
       {
         hid: 'og:url',
         property: 'og:url',
-        content: `${process.env.BASE_URL}/beers/ybap_plum_plum_bom/`,
+        content: `${process.env.BASE_URL}/beers/ybap_plum_plum_bon/`,
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Yorocco Beer : Y/B/A/P #002 Plum Plum Bom',
+        content: 'Yorocco Beer : Y/B/A/P #002 Plum Plum Bon',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:description', property: 'og:description', content: '' },
