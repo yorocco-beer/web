@@ -35,11 +35,6 @@
           </div>
           <div class="col-md-8 mt-40 col-sm-12">
             <div class="product-details-content">
-              <header class="font-weight--reguler mb-20 text-center">
-                <h6>Y/B/A/P #001</h6>
-                <h5>Blueberry Saison</h5>
-              </header>
-
               <div class="quickview-peragraph mt-10">
                 <h6 class="font-weight--bold mb-10">HISTORY</h6>
                 <dl>
