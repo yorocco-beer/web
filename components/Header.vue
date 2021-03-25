@@ -2,7 +2,7 @@
   <div class="header-area header-area--default">
     <!-- Header Bottom Wrap Start -->
     <header
-      class="header-area header-sticky"
+      class="header-area header-sticky container-fluid"
       :class="{ 'is-sticky': isSticky }"
       ref="sticky"
     >

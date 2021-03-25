@@ -29,54 +29,56 @@
           alt=""
         />
       </div>
-      <div class="row justify-content-center">
-        <div class="col-md-8 col-sm-12">
-          <div class="c-mood-content text-center">
-            <header class="c-mood-header">
-              <h1>
-                甘エビと鰆のフリット <br />
-                サルサヴェルデ添え
-              </h1>
-              <h2>
-                Fritto Spanish Mackerel &amp; Northern Shrimp with Salsa Verde
-              </h2>
-            </header>
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-sm-12">
+            <div class="c-mood-content text-center">
+              <header class="c-mood-header">
+                <h1>
+                  甘エビと鰆のフリット <br />
+                  サルサヴェルデ添え
+                </h1>
+                <h2>
+                  Fritto Spanish Mackerel &amp; Northern Shrimp with Salsa Verde
+                </h2>
+              </header>
 
-            <div class="c-mood-text">
-              <p class="divider">・</p>
-              <p class="text">
-                サルサヴェルデをつくる。<br />
-                グリーンのハーブをさっと洗い、太い茎を取り除く。<br />
-                今回は香菜とフェンネル。<br />
-                アンチョビ、ナッツ、塩、きび砂糖、バルサミコ、オリーブオイルを入れフードプロセッサーにかける。
-              </p>
-              <p class="text">
-                甘エビは頭と尻尾の剣をハサミで切る。<br />
-                体の殻を取っておく。<br />
-                鰆は適当な大きさに切り、塩を少々ふる。
-              </p>
-              <p class="text">
-                衣をつくる。<br />
-                小麦粉、塩にビールを入れ柔らかめに混ぜる。<br />
-                ハーブがあればみじん切りにしていれる。
-              </p>
-              <p class="text">
-                鰆はたっぷり、甘エビは体にだけ衣をつけ<br />180°cくらいの油で揚げる。
-                <br />
-                甘エビは体が先に揚がるのでトングなどを使いの頭をしっかり揚げる。
-              </p>
-              <p class="text">サルサヴェルデを添えていただく。</p>
-              <p class="divider">・</p>
-              <p class="side">
-                Side Dishes<br />
-                挽肉と切り干し大根のトマト煮込み、プラムチーズとクラッカー
-              </p>
-              <p class="date">2021.3.23</p>
-              <p class="by">
-                Dishes : Ikuyo Segi
-                <br />
-                Picture : Yumi Saito
-              </p>
+              <div class="c-mood-text">
+                <p class="divider">・</p>
+                <p class="text">
+                  サルサヴェルデをつくる。<br />
+                  グリーンのハーブをさっと洗い、太い茎を取り除く。<br />
+                  今回は香菜とフェンネル。<br />
+                  アンチョビ、ナッツ、塩、きび砂糖、バルサミコ、オリーブオイルを入れフードプロセッサーにかける。
+                </p>
+                <p class="text">
+                  甘エビは頭と尻尾の剣をハサミで切る。<br />
+                  体の殻を取っておく。<br />
+                  鰆は適当な大きさに切り、塩を少々ふる。
+                </p>
+                <p class="text">
+                  衣をつくる。<br />
+                  小麦粉、塩にビールを入れ柔らかめに混ぜる。<br />
+                  ハーブがあればみじん切りにしていれる。
+                </p>
+                <p class="text">
+                  鰆はたっぷり、甘エビは体にだけ衣をつけ<br />180°cくらいの油で揚げる。
+                  <br />
+                  甘エビは体が先に揚がるのでトングなどを使いの頭をしっかり揚げる。
+                </p>
+                <p class="text">サルサヴェルデを添えていただく。</p>
+                <p class="divider">・</p>
+                <p class="side">
+                  Side Dishes<br />
+                  挽肉と切り干し大根のトマト煮込み、プラムチーズとクラッカー
+                </p>
+                <p class="date">2021.3.23</p>
+                <p class="by">
+                  Dishes : Ikuyo Segi
+                  <br />
+                  Picture : Yumi Saito
+                </p>
+              </div>
             </div>
           </div>
         </div>
