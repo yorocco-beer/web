@@ -92,7 +92,8 @@ import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
   head: {
-    title: 'Yorocco Beer : Y/B/A/P #004 Blueberry Prana',
+    title:
+      'Yorocco Beer : Mood : vol.1 甘エビと鰆のフリット サルサヴェルデ添え',
     meta: [
       {
         hid: 'og:url',
@@ -102,21 +103,25 @@ export default defineComponent({
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Yorocco Beer : Y/B/A/P #004 Blueberry Prana',
+        content:
+          'Yorocco Beer : Mood : vol.1 甘エビと鰆のフリット サルサヴェルデ添え',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:description', property: 'og:description', content: '' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: '甘エビと鰆のフリット サルサヴェルデ添え',
+      },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: `${process.env.BASE_URL}/ogp/4.jpg`,
+        content: `${process.env.BASE_URL}/ogp/mood/vo1.jpg`,
       },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
         content: 'summary_large_image',
       },
-      { hid: 'og:site_name', property: 'og:site_name', content: '' },
       { hid: 'og:locale', property: 'og:locale', content: 'ja_JP' },
       { hid: 'fb:app_id', property: 'fb:app_id', content: '' },
     ],
