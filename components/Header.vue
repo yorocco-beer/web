@@ -11,7 +11,7 @@
           <div class="top-logo-area">
             <div class="logo text-md-center">
               <a href="/"
-                ><img src="@/assets/images/main/logo.png" width="180px" alt=""
+                ><img src="@/assets/img/logo.png" width="180px" alt=""
               /></a>
             </div>
           </div>
@@ -24,7 +24,7 @@
           ></div>
           <div class="logo__hidden text-left">
             <a class="d-block" href="/"
-              ><img src="@/assets/images/logo.svg" width="120px" alt=""
+              ><img src="@/assets/img/logo.svg" width="120px" alt=""
             /></a>
           </div>
         </div>

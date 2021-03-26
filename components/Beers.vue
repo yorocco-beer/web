@@ -14,7 +14,7 @@
                     class="product-thumbnail"
                   >
                     <img
-                      v-lazy="require('@/assets/images/beer/thumb1.jpg')"
+                      v-lazy="require('@/assets/img/beer/thumb1.jpg')"
                       alt=""
                       width="263"
                       height="245"
@@ -41,7 +41,7 @@
                     class="product-thumbnail"
                   >
                     <img
-                      v-lazy="require('@/assets/images/beer/thumb2.jpg')"
+                      v-lazy="require('@/assets/img/beer/thumb2.jpg')"
                       alt=""
                       width="263"
                       height="245"
@@ -68,7 +68,7 @@
                     class="product-thumbnail"
                   >
                     <img
-                      v-lazy="require('@/assets/images/beer/thumb3.jpg')"
+                      v-lazy="require('@/assets/img/beer/thumb3.jpg')"
                       width="263"
                       height="245"
                     />
@@ -94,7 +94,7 @@
                     class="product-thumbnail"
                   >
                     <img
-                      v-lazy="require('@/assets/images/beer/thumb4.jpg')"
+                      v-lazy="require('@/assets/img/beer/thumb4.jpg')"
                       alt=""
                       width="263"
                       height="245"

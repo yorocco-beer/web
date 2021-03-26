@@ -24,7 +24,7 @@
         <img
           width="1480"
           height="987"
-          v-lazy="require('@/assets/images/mood/vol1.jpg')"
+          v-lazy="require('@/assets/img/mood/vol1.jpg')"
           class="img-fluid center"
           alt=""
         />

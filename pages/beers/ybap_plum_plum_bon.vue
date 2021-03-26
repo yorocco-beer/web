@@ -26,7 +26,7 @@
     <div class="single-product-wrap">
       <div class="c-beer__mainimg">
         <img
-          v-lazy="require('@/assets/images/beer/2.jpg')"
+          v-lazy="require('@/assets/img/beer/2.jpg')"
           class="img-fluid center"
           alt=""
         />

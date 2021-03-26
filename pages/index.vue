@@ -4,7 +4,7 @@
       <img
         width="1080"
         height="607"
-        v-lazy="require('@/assets/images/main/img1.jpg')"
+        v-lazy="require('@/assets/img/img1.jpg')"
       />
     </div>
   </div>
