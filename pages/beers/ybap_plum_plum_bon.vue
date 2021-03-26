@@ -24,76 +24,70 @@
       </div>
     </div>
     <div class="single-product-wrap">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-5 col-sm-12">
-            <img
-              v-lazy="require('@/assets/images/beer/2.jpg')"
-              class="img-fluid center"
-              alt=""
-            />
-          </div>
-          <div class="col-md-8 mt-40 col-sm-12">
-            <div class="product-details-content">
-              <div class="quickview-peragraph mt-10">
-                <h6 class="font-weight--bold mb-10">HISTORY</h6>
-                <dl>
-                  <dt>2019.6.21</dt>
-                  <dd>
-                    仕込み オリジナルのビールは、Plum Bon
-                    Saisonとして、大阪の箕面ビールとコラボして仕込まれた。和歌山のすももを使用
-                  </dd>
-                  <dt>2019.8.15</dt>
-                  <dd>木樽（赤ワイン樽）へ移送</dd>
-                  <dt>2020.6.16</dt>
-                  <dd>地元で収穫された梅を木樽に浸漬</dd>
-                  <dt>2020.11.5</dt>
-                  <dd>ボトリング その後瓶内発酵・熟成</dd>
-                </dl>
+      <div class="c-beer__mainimg">
+        <img
+          v-lazy="require('@/assets/images/beer/2.jpg')"
+          class="img-fluid center"
+          alt=""
+        />
+      </div>
+      <div class="c-beer__content">
+        <h1>HISTORY</h1>
+        <dl>
+          <dt>2019.6.21</dt>
+          <dd>
+            仕込み オリジナルのビールは、Plum Bon
+            Saisonとして、大阪の箕面ビールとコラボして仕込まれた。和歌山のすももを使用
+          </dd>
+          <dt>2019.8.15</dt>
+          <dd>木樽（赤ワイン樽）へ移送</dd>
+          <dt>2020.6.16</dt>
+          <dd>地元で収穫された梅を木樽に浸漬</dd>
+          <dt>2020.11.5</dt>
+          <dd>ボトリング その後瓶内発酵・熟成</dd>
+        </dl>
 
-                <p class="note mb-30">
-                  ※樽熟成（Barrel
-                  Aging）で使用した木樽は、2015年に山梨の奥野田ワイナリーより譲っていただいたもの。フレンチオーク。ワイナリーでは最後にカベルネ・ソーヴィニヨンに使用された。その後ヨロッコブルワリーにて、数回ビールに使用されたもの。Biwavanaが入っていたバレル。
-                </p>
-                <h6 class="font-weight--bold mb-10">TASTING NOTES</h6>
-                <p>
-                  ほんのりとピンクがかった黄色〜山吹色。果実由来の心地よい酸味。軽い飲み口。よく熟したすももと梅のニュアンス。ガス感は弱め。食事全般に合うと思われるが、軽やかな味わいのもの、あるいは塩気の効いたもの、またはサクッとした食感のもの等に合いそうな雰囲気。
-                </p>
-              </div>
+        <p class="note">
+          ※ 樽熟成（Barrel
+          Aging）で使用した木樽は、2015年に山梨の奥野田ワイナリーより譲っていただいたもの。フレンチオーク。ワイナリーでは最後にカベルネ・ソーヴィニヨンに使用された。その後ヨロッコブルワリーにて、数回ビールに使用されたもの。Biwavanaが入っていたバレル。
+        </p>
 
-              <div class="product_meta mt-30">
-                <div class="sku_wrapper item_meta">
-                  <span class="label"> Style: </span>
-                  Barrel Aged / Fruited Saison
-                </div>
-                <div class="posted_in item_meta">
-                  <span class="label">Abv: </span>
-                  5.5%
-                </div>
-              </div>
-
-              <div class="product_socials section-space--mt_60 pb-20">
-                <span class="label">Share :</span>
-                <ul class="helendo-social-share socials-inline">
-                  <li>
-                    <a
-                      class="share-twitter helendo-twitter"
-                      href="#"
-                      target="_blank"
-                      ><i class="social_twitter"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      class="share-facebook helendo-facebook"
-                      href="#"
-                      target="_blank"
-                      ><i class="social_facebook"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
+        <h1>TASTING NOTES</h1>
+        <p>
+          ドライなセゾン。木樽での熟成により味わいはオリジナルより柔らかく変化している。ブレタノマイセスによるファンキーさとドライホッピングによる香りが合わさり、有名なベルギーの修道院ビールの存在を思い起こさせるが、全体的にそれよりも優しく素朴な印象を持つ。食中酒として、楽しんでいただくことをお勧めしたい。今後の熟成により、ホップ由来の風味は薄れることが予想されるが、ブレタノマイセス由来のファンキーさは強まる可能性もある。
+        </p>
+        <div class="product-details-content">
+          <div class="product_meta mt-30">
+            <div class="sku_wrapper item_meta">
+              <span class="label"> Style: </span>
+              Barrel Aged / Fruited Saison
             </div>
+            <div class="posted_in item_meta">
+              <span class="label">Abv: </span>
+              5.5%
+            </div>
+          </div>
+
+          <div class="product_socials section-space--mt_60 pb-20">
+            <span class="label">Share :</span>
+            <ul class="helendo-social-share socials-inline">
+              <li>
+                <a
+                  class="share-twitter helendo-twitter"
+                  href="#"
+                  target="_blank"
+                  ><i class="social_twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="share-facebook helendo-facebook"
+                  href="#"
+                  target="_blank"
+                  ><i class="social_facebook"></i
+                ></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

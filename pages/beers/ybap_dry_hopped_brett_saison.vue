@@ -24,77 +24,71 @@
       </div>
     </div>
     <div class="single-product-wrap">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-5 col-sm-12">
-            <img
-              v-lazy="require('@/assets/images/beer/3.jpg')"
-              class="img-fluid center"
-              alt=""
-            />
-          </div>
-          <div class="col-md-8 mt-40 col-sm-12">
-            <div class="product-details-content">
-              <div class="quickview-peragraph mt-10">
-                <h6 class="font-weight--bold mb-10">HISTORY</h6>
-                <dl>
-                  <dt>2020.1.15</dt>
-                  <dd>仕込み オリジナルのビールは春雷としてリリース。</dd>
-                  <dt>2020.2.27</dt>
-                  <dd>
-                    木樽（赤ワイン樽）へ移送。ブレタノマイセス（野生酵母）を投入。
-                  </dd>
-                  <dt>2020.1.20</dt>
-                  <dd>
-                    ステンレスタンクへ移送。ドライホップを施す（Amarillo,
-                    Centennial）
-                  </dd>
-                  <dt>2020.1.28</dt>
-                  <dd>ボトリング その後瓶内発酵・熟成</dd>
-                </dl>
+      <div class="c-beer__mainimg">
+        <img
+          v-lazy="require('@/assets/images/beer/3.jpg')"
+          class="img-fluid center"
+          alt=""
+        />
+      </div>
+      <div class="c-beer__content">
+        <h1>HISTORY</h1>
+        <dl>
+          <dt>2020.1.15</dt>
+          <dd>仕込み オリジナルのビールは春雷としてリリース。</dd>
+          <dt>2020.2.27</dt>
+          <dd>
+            木樽（赤ワイン樽）へ移送。ブレタノマイセス（野生酵母）を投入。
+          </dd>
+          <dt>2020.1.20</dt>
+          <dd>
+            ステンレスタンクへ移送。ドライホップを施す（Amarillo, Centennial）
+          </dd>
+          <dt>2020.1.28</dt>
+          <dd>ボトリング その後瓶内発酵・熟成</dd>
+        </dl>
 
-                <p class="note mb-30">
-                  ※使用した赤ワイン樽は、山梨の奥野田ワイナリーより譲り受けた後、ヨロッコブルワリーで数回ビールに使用したもの。フレンチオーク
-                </p>
-                <h6 class="font-weight--bold mb-10">TASTING NOTES</h6>
-                <p>
-                  ドライなセゾン。木樽での熟成により味わいはオリジナルより柔らかく変化している。ブレタノマイセスによるファンキーさとドライホッピングによる香りが合わさり、有名なベルギーの修道院ビールの存在を思い起こさせるが、全体的にそれよりも優しく素朴な印象を持つ。食中酒として、楽しんでいただくことをお勧めしたい。今後の熟成により、ホップ由来の風味は薄れることが予想されるが、ブレタノマイセス由来のファンキーさは強まる可能性もある。
-                </p>
-              </div>
+        <p class="note">
+          ※
+          使用した赤ワイン樽は、山梨の奥野田ワイナリーより譲り受けた後、ヨロッコブルワリーで数回ビールに使用したもの。フレンチオーク
+        </p>
 
-              <div class="product_meta mt-30">
-                <div class="sku_wrapper item_meta">
-                  <span class="label"> Style: </span>
-                  Barrel Aged / Saison
-                </div>
-                <div class="posted_in item_meta">
-                  <span class="label">Abv: </span>
-                  6%
-                </div>
-              </div>
-
-              <div class="product_socials section-space--mt_60 pb-20">
-                <span class="label">Share :</span>
-                <ul class="helendo-social-share socials-inline">
-                  <li>
-                    <a
-                      class="share-twitter helendo-twitter"
-                      href="#"
-                      target="_blank"
-                      ><i class="social_twitter"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      class="share-facebook helendo-facebook"
-                      href="#"
-                      target="_blank"
-                      ><i class="social_facebook"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
+        <h1>TASTING NOTES</h1>
+        <p>
+          ドライなセゾン。木樽での熟成により味わいはオリジナルより柔らかく変化している。ブレタノマイセスによるファンキーさとドライホッピングによる香りが合わさり、有名なベルギーの修道院ビールの存在を思い起こさせるが、全体的にそれよりも優しく素朴な印象を持つ。食中酒として、楽しんでいただくことをお勧めしたい。今後の熟成により、ホップ由来の風味は薄れることが予想されるが、ブレタノマイセス由来のファンキーさは強まる可能性もある。
+        </p>
+        <div class="product-details-content">
+          <div class="product_meta mt-30">
+            <div class="sku_wrapper item_meta">
+              <span class="label"> Style: </span>
+              Barrel Aged / Saison
             </div>
+            <div class="posted_in item_meta">
+              <span class="label">Abv: </span>
+              6%
+            </div>
+          </div>
+
+          <div class="product_socials section-space--mt_60 pb-20">
+            <span class="label">Share :</span>
+            <ul class="helendo-social-share socials-inline">
+              <li>
+                <a
+                  class="share-twitter helendo-twitter"
+                  href="#"
+                  target="_blank"
+                  ><i class="social_twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="share-facebook helendo-facebook"
+                  href="#"
+                  target="_blank"
+                  ><i class="social_facebook"></i
+                ></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

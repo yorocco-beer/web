@@ -24,81 +24,75 @@
       </div>
     </div>
     <div class="single-product-wrap">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-5 col-sm-12">
-            <img
-              v-lazy="require('@/assets/images/beer/1.jpg')"
-              class="img-fluid center"
-              alt=""
-            />
-          </div>
-          <div class="col-md-8 mt-40 col-sm-12">
-            <div class="product-details-content">
-              <div class="quickview-peragraph mt-10">
-                <h6 class="font-weight--bold mb-10">HISTORY</h6>
-                <dl>
-                  <dt>2019.7.31</dt>
-                  <dd>
-                    仕込み オリジナルのビールはAutumn Boogieとしてリリース
-                  </dd>
-                  <dt>2019.9.4</dt>
-                  <dd>
-                    藤沢の綿貫農園で収穫したブルーベリーとともに木樽（赤ワイン樽）へ。
-                    <p class="note">
-                      このブルーベリーはSECOND
-                      USEと言って、別のビールに１回漬け込まれたものを再利用する形で使用した。
-                      また、その際同時にブレタノマイセスという野生酵母も投入している。
-                    </p>
-                  </dd>
-                  <dt>2020.2.27</dt>
-                  <dd>ボトリング その後瓶内発酵・熟成</dd>
-                </dl>
-                <p class="note mb-30">
-                  ボトリングの時点ではブルーベリー由来のエグ味が強いように感じられたが、１年超の瓶内熟成期間を経て、かなり柔らかく調和してきている。
-                </p>
-                <p class="note mb-30">
-                  ※ 樽熟成（Barrel
-                  Aging）で使用した木樽は、2015年に山梨の奥野田ワイナリーより譲っていただいたもの。フレンチオーク。ワイナリーでは最後にカベルネ・ソーヴィニヨンに使用された。その後ヨロッコブルワリーにて、数回ビールに使用されたもの。
-                </p>
-                <h6 class="font-weight--bold mb-10">TASTING NOTES</h6>
-                <p>
-                  薄い赤〜紫色。ブルーベリーの果皮を思わせる少し鉄っぽいニュアンス。軽い酸味。ブレタノマイセス由来のライトなファンキー感。ライトボディ。食前または食中に良さそう。グラスに注いで軽く空気に触れさせるほど、硬い香りが柔らかくなる印象を受ける。
-                </p>
-              </div>
+      <div class="c-beer__mainimg">
+        <img
+          v-lazy="require('@/assets/images/beer/1.jpg')"
+          class="img-fluid center"
+          alt=""
+        />
+      </div>
+      <div class="c-beer__content">
+        <h1>HISTORY</h1>
+        <dl>
+          <dt>2019.7.31</dt>
+          <dd>仕込み オリジナルのビールはAutumn Boogieとしてリリース</dd>
+          <dt>2019.9.4</dt>
+          <dd>
+            藤沢の綿貫農園で収穫したブルーベリーとともに木樽（赤ワイン樽）へ。
+            <p class="note">
+              このブルーベリーはSECOND
+              USEと言って、別のビールに１回漬け込まれたものを再利用する形で使用した。
+              また、その際同時にブレタノマイセスという野生酵母も投入している。
+            </p>
+          </dd>
+          <dt>2020.2.27</dt>
+          <dd>ボトリング その後瓶内発酵・熟成</dd>
+        </dl>
 
-              <div class="product_meta mt-30">
-                <div class="sku_wrapper item_meta">
-                  <span class="label"> Style: </span>
-                  Barrel Aged / Fruited Saison
-                </div>
-                <div class="posted_in item_meta">
-                  <span class="label">Abv: </span>6%
-                </div>
-              </div>
+        <p class="note">
+          ボトリングの時点ではブルーベリー由来のエグ味が強いように感じられたが、１年超の瓶内熟成期間を経て、かなり柔らかく調和してきている。
+        </p>
+        <p class="note">
+          ※ 樽熟成（Barrel
+          Aging）で使用した木樽は、2015年に山梨の奥野田ワイナリーより譲っていただいたもの。フレンチオーク。ワイナリーでは最後にカベルネ・ソーヴィニヨンに使用された。その後ヨロッコブルワリーにて、数回ビールに使用されたもの。
+        </p>
 
-              <div class="product_socials section-space--mt_60 pb-20">
-                <span class="label">Share :</span>
-                <ul class="helendo-social-share socials-inline">
-                  <li>
-                    <a
-                      class="share-twitter helendo-twitter"
-                      href="#"
-                      target="_blank"
-                      ><i class="social_twitter"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      class="share-facebook helendo-facebook"
-                      href="#"
-                      target="_blank"
-                      ><i class="social_facebook"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
+        <h1>TASTING NOTES</h1>
+        <p>
+          薄い赤〜紫色。ブルーベリーの果皮を思わせる少し鉄っぽいニュアンス。軽い酸味。ブレタノマイセス由来のライトなファンキー感。ライトボディ。食前または食中に良さそう。グラスに注いで軽く空気に触れさせるほど、硬い香りが柔らかくなる印象を受ける。
+        </p>
+        <div class="product-details-content">
+          <div class="product_meta mt-30">
+            <div class="sku_wrapper item_meta">
+              <span class="label"> Style: </span>
+              Barrel Aged / Fruited Saison
             </div>
+            <div class="posted_in item_meta">
+              <span class="label">Abv: </span>
+              6%
+            </div>
+          </div>
+
+          <div class="product_socials section-space--mt_60 pb-20">
+            <span class="label">Share :</span>
+            <ul class="helendo-social-share socials-inline">
+              <li>
+                <a
+                  class="share-twitter helendo-twitter"
+                  href="#"
+                  target="_blank"
+                  ><i class="social_twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="share-facebook helendo-facebook"
+                  href="#"
+                  target="_blank"
+                  ><i class="social_facebook"></i
+                ></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
