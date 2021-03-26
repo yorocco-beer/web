@@ -1,0 +1,44 @@
+.c-beer__content {
+  padding-top: 0px;
+  letter-spacing: 0.9px;
+  font-family: 'A1 Gothic R';
+  font-size: 14px;
+  line-height: 2;
+  font-feature-settings: 'palt';
+  p {
+    margin-bottom: 20px;
+  }
+  .note {
+    font-size: 11px;
+    text-indent: -1rem;
+    margin-left: 1rem;
+  }
+  h1 {
+    text-align: center;
+    color: #4a442f;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    br {
+      display: none;
+    }
+    @media #{$large-mobile} {
+      line-height: 1.6;
+      br {
+        display: block;
+      }
+    }
+  }
+  dl {
+    dt {
+      float: left;
+      font-weight: normal;
+    }
+    dd {
+      margin-left: 7rem;
+      margin-bottom: 20px;
+    }
+  }
+}

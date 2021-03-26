@@ -27,6 +27,21 @@ import { defineComponent, ref } from '@vue/composition-api'
 import MyBeer from '@/components/Beers.vue'
 
 export default defineComponent({
+  head: {
+    title: 'ヨロッコビール / Yorocco Beer : Beers',
+    meta: [
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: `${process.env.BASE_URL}/beers/`,
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'ヨロッコビール / Yorocco Beer : Beers',
+      },
+    ],
+  },
   components: {
     MyBeer,
   },

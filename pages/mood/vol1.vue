@@ -93,7 +93,7 @@ import { defineComponent } from '@vue/composition-api'
 export default defineComponent({
   head: {
     title:
-      'Yorocco Beer : Mood : vol.1 甘エビと鰆のフリット サルサヴェルデ添え',
+      'ヨロッコビール / Yorocco Beer : Mood : vol.1 甘エビと鰆のフリット サルサヴェルデ添え',
     meta: [
       {
         hid: 'og:url',
@@ -104,7 +104,7 @@ export default defineComponent({
         hid: 'og:title',
         property: 'og:title',
         content:
-          'Yorocco Beer : Mood : vol.1 甘エビと鰆のフリット サルサヴェルデ添え',
+          'ヨロッコビール / Yorocco Beer : Mood : vol.1 甘エビと鰆のフリット サルサヴェルデ添え',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {

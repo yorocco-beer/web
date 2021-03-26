@@ -16,7 +16,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Yorocco Beer : An independent local brewery',
+    title: 'ヨロッコビール / Yorocco Beer : An independent local brewery',
     htmlAttrs: {
       lang: 'ja',
     },
@@ -28,7 +28,8 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'We are small/local craft brewery based in Kamakura Japan.',
+        content:
+          'ヨロッコビール 鎌倉にあるクラフトビールブルワリー /  We are small/local craft brewery based in Kamakura Japan.',
       },
       {
         hid: 'og:image',

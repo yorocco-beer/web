@@ -111,7 +111,8 @@ import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
   head: {
-    title: 'Yorocco Beer : Y/B/A/P #001 Y/B/A/P #001 Blueberry Saison',
+    title:
+      'ヨロッコビール / Yorocco Beer : Y/B/A/P #001 Y/B/A/P #001 Blueberry Saison',
     meta: [
       {
         hid: 'og:url',
@@ -121,7 +122,8 @@ export default defineComponent({
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Yorocco Beer : Y/B/A/P #001 Y/B/A/P #001 Blueberry Saison',
+        content:
+          'ヨロッコビール / Yorocco Beer : Y/B/A/P #001 Y/B/A/P #001 Blueberry Saison',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:description', property: 'og:description', content: '' },

@@ -33,37 +33,34 @@
               alt=""
             />
           </div>
-          <div class="col-md-8 mt-40 col-sm-12">
+          <div class="col-md-8 col-sm-12">
+            <div class="c-beer__content">
+              <h1>HISTORY</h1>
+              <dl>
+                <dt>2019.11.8</dt>
+                <dd>仕込み オリジナルのビールはBlack Saintとしてリリース。</dd>
+                <dt>2019.12.18</dt>
+                <dd>木樽（コニャック樽）へ移送</dd>
+                <dt>2020.8.6</dt>
+                <dd>収穫したばかりのフレッシュなブルーベリーを木樽に浸漬</dd>
+                <dt>2020.11.10</dt>
+                <dd>
+                  木樽（赤ワイン樽）へ液体のみを移送
+                  ブルーベリーから渋みが出すぎるのを防ぐため、ビールと果実を分離することが狙い。
+                </dd>
+                <dt>2021.1.15</dt>
+                <dd>ボトリング その後瓶内発酵・熟成</dd>
+              </dl>
+              <p class="note">
+                ※
+                使用したコニャック樽は、フランスのコニャック蒸留所で使用された後、日本へ輸入されたもの。赤ワイン樽は山梨の奥野田ワイナリーより譲り受けた後、ヨロッコブルワリーで数回ビールに使用したもの。アメリカンオーク。
+              </p>
+              <h1>TASTING NOTES</h1>
+              <p>
+                黒に近い、濃いルビイ色。果実味溢れるエキス感。心地よく、あとをひく酸。軽やかな凝縮感。そもそもは重めのビールだったが、木樽内での野生酵母（ブレタノマイセス）による発酵により、残糖分はかなり発酵されており、そこに発泡（ガス感）も加わることで、軽めの赤ワインのような楽しみ方ができるビールになっている。
+              </p>
+            </div>
             <div class="product-details-content">
-              <div class="quickview-peragraph mt-10">
-                <h6 class="font-weight--bold mb-10">HISTORY</h6>
-                <dl>
-                  <dt>2019.11.8</dt>
-                  <dd>
-                    仕込み オリジナルのビールはBlack Saintとしてリリース。
-                  </dd>
-                  <dt>2019.12.18</dt>
-                  <dd>木樽（コニャック樽）へ移送</dd>
-                  <dt>2020.8.6</dt>
-                  <dd>収穫したばかりのフレッシュなブルーベリーを木樽に浸漬</dd>
-                  <dt>2020.11.10</dt>
-                  <dd>
-                    木樽（赤ワイン樽）へ液体のみを移送
-                    ブルーベリーから渋みが出すぎるのを防ぐため、ビールと果実を分離することが狙い。
-                  </dd>
-                  <dt>2021.1.15</dt>
-                  <dd>ボトリング その後瓶内発酵・熟成</dd>
-                </dl>
-
-                <p class="note mb-30">
-                  ※使用したコニャック樽は、フランスのコニャック蒸留所で使用された後、日本へ輸入されたもの。赤ワイン樽は山梨の奥野田ワイナリーより譲り受けた後、ヨロッコブルワリーで数回ビールに使用したもの。アメリカンオーク。
-                </p>
-                <h6 class="font-weight--bold mb-10">TASTING NOTES</h6>
-                <p>
-                  黒に近い、濃いルビイ色。果実味溢れるエキス感。心地よく、あとをひく酸。軽やかな凝縮感。そもそもは重めのビールだったが、木樽内での野生酵母（ブレタノマイセス）による発酵により、残糖分はかなり発酵されており、そこに発泡（ガス感）も加わることで、軽めの赤ワインのような楽しみ方ができるビールになっている。
-                </p>
-              </div>
-
               <div class="product_meta mt-30">
                 <div class="sku_wrapper item_meta">
                   <span class="label"> Style: </span>
@@ -109,7 +106,7 @@ import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
   head: {
-    title: 'Yorocco Beer : Y/B/A/P #004 Blueberry Prana',
+    title: 'ヨロッコビール / Yorocco Beer : Y/B/A/P #004 Blueberry Prana',
     meta: [
       {
         hid: 'og:url',
@@ -119,7 +116,7 @@ export default defineComponent({
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Yorocco Beer : Y/B/A/P #004 Blueberry Prana',
+        content: 'ヨロッコビール / Yorocco Beer : Y/B/A/P #004 Blueberry Prana',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:description', property: 'og:description', content: '' },
