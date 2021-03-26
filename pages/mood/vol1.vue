@@ -110,7 +110,8 @@ export default defineComponent({
       {
         hid: 'og:description',
         property: 'og:description',
-        content: '甘エビと鰆のフリット サルサヴェルデ添え',
+        content:
+          'Current Mood.Nothing better than sharing good food with others.',
       },
       {
         hid: 'og:image',
