@@ -120,6 +120,7 @@ img[lazy='loaded'] {
 }
 img[lazy='loading'] {
   margin: auto;
+  background-color: #fff;
 }
 img[lazy-progressive='true'] {
   width: 100% !important;

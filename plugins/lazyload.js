@@ -3,4 +3,5 @@ import VueLazyload from 'vue-lazyload'
 
 Vue.use(VueLazyload, {
   observer: true,
+  preLoad: 1.3,
 })
