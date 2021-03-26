@@ -5,7 +5,7 @@
         <div class="tab-pane fade active show" id="tab_list_01">
           <!-- product-slider-active -->
           <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-6">
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">
@@ -32,7 +32,7 @@
               </div>
               <!-- Single Product Item End -->
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-6">
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">
@@ -59,7 +59,7 @@
               </div>
               <!-- Single Product Item End -->
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-6">
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">
@@ -85,7 +85,7 @@
               </div>
               <!-- Single Product Item End -->
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-6">
               <!-- Single Product Item Start -->
               <div class="single-product-item text-center">
                 <div class="products-images">

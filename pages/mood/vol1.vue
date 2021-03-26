@@ -98,7 +98,7 @@ export default defineComponent({
       {
         hid: 'og:url',
         property: 'og:url',
-        content: `${process.env.BASE_URL}/beers/ybap_blueberry_prana/`,
+        content: `${process.env.BASE_URL}/mood/vol1/`,
       },
       {
         hid: 'og:title',
