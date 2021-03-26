@@ -20,6 +20,9 @@
             <li @click="onCloseMenu">
               <NuxtLink to="/beers"><span>BEERS</span></NuxtLink>
             </li>
+            <li @click="onCloseMenu">
+              <NuxtLink to="/mood/vol1"><span>MOOD</span></NuxtLink>
+            </li>
             <li>
               <a href="https://yorocco-beer.stores.jp/" target="_blank"
                 ><span>ONLINE SHOP</span></a
