@@ -1,6 +1,6 @@
 <template>
   <div id="main-wrapper">
-    <div class="breadcrumb-area mb-40">
+    <div class="breadcrumb-area mb-20">
       <div class="container">
         <div class="col-12">
           <div class="row breadcrumb_box align-items-center">
