@@ -5,26 +5,8 @@
 .product-details-content {
   margin: 0 auto;
   letter-spacing: 0.9px;
-  header {
-    letter-spacing: 0.9px;
-    h5 {
-      font-family: 'A1 Gothic R';
-    }
-  }
-
-  dl {
-    @media #{$large-mobile} {
-      font-size: 14px;
-    }
-    dt {
-      float: left;
-      font-weight: normal;
-    }
-    dd {
-      margin-left: 5.5rem;
-      margin-bottom: 20px;
-    }
-  }
+  font-size: 11px;
+  text-align: center;
 }
 
 .product-details-thumbs-2 {
