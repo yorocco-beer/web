@@ -13,6 +13,9 @@
 .header-sticky {
   .header-border {
     border-bottom: 1px solid #e2ded1;
+    @media #{ $large-mobile} {
+      border-bottom: none;
+    }
   }
   &.is-sticky {
     position: fixed;
