@@ -10,9 +10,12 @@
         <div class="col-lg-12 d-none d-md-block">
           <div class="top-logo-area">
             <div class="logo text-md-center">
-              <a href="/"
-                ><img src="@/assets/img/logo.png" width="180px" alt=""
-              /></a>
+              <NuxtLink to="/">
+                <img
+                  src="@/assets/img/logo.png"
+                  alt="ヨロッコビール / Yorocco Beer : Your Local Brewery"
+                />
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -23,9 +26,12 @@
             class="header-right-items content__hidden d-none d-md-block"
           ></div>
           <div class="logo__hidden text-left">
-            <a class="d-block" href="/"
-              ><img src="@/assets/img/logo.svg" width="120px" alt=""
-            /></a>
+            <NuxtLink to="/" class="d-block">
+              <img
+                src="@/assets/img/logo.svg"
+                alt="ヨロッコビール / Yorocco Beer : Your Local Brewery"
+              />
+            </NuxtLink>
           </div>
         </div>
 

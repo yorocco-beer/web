@@ -464,24 +464,15 @@ input[type='checkbox'] {
   background-repeat: no-repeat;
   background-position: center center;
   border-bottom-width: 0;
-  padding-top: 20px;
-  padding-bottom: 19px;
+  padding-top: 16px;
+  padding-bottom: 17px;
   background-size: cover;
-  @media #{$tablet-device,$desktop-device} {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  @media #{$large-mobile} {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    // margin-bottom: 20px !important;
-  }
 }
 
 .breadcrumb-list {
   & li {
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 2px;
     line-height: 1.58;

@@ -45,7 +45,7 @@
 
               <div class="c-mood-text">
                 <p class="divider">・</p>
-                <p class="text">
+                <p class="text with-divider">
                   サルサヴェルデをつくる。<br />
                   グリーンのハーブをさっと洗い、太い茎を取り除く。<br />
                   今回は香菜とフェンネル。<br />
@@ -69,9 +69,10 @@
                 <p class="text">サルサヴェルデを添えていただく。</p>
                 <p class="divider">・</p>
                 <p class="side">
-                  Side Dishes<br />
+                  <span>Dishes</span>
                   挽肉と切り干し大根のトマト煮込み、プラムチーズとクラッカー
                 </p>
+                <p class="divider">・</p>
                 <p class="date">2021.3.23</p>
                 <p class="by">
                   Dishes : Ikuyo Segi

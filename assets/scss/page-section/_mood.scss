@@ -1,10 +1,10 @@
 .c-mood-content {
-  padding-top: 69px;
+  padding-top: 117px;
   letter-spacing: 0.9px;
 }
 
 .c-mood-header {
-  margin-bottom: 25px;
+  margin-bottom: 47px;
   font-feature-settings: 'palt';
   h1 {
     color: #324851;
@@ -37,26 +37,40 @@
   font-feature-settings: 'palt';
   p.text {
     color: #513b32;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    &.with-divider {
+      margin-top: 38px;
+    }
   }
   .side {
     font-size: 11px;
-    margin-bottom: 22px;
+    margin-bottom: 50px;
     color: #818181;
     line-height: 1.8;
+    margin-top: 47px;
+    span {
+      font-size: 20px;
+      display: block;
+      font-family: 'Mr De Haviland';
+    }
   }
   .divider {
-    margin: 40px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 15px;
   }
   .date {
     font-size: 11px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 4px;
   }
   .by {
     font-size: 11px;
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 120px;
+    margin-bottom: 108px;
+    letter-spacing: 3px;
   }
 }
