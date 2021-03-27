@@ -6,7 +6,7 @@
       :class="{ 'is-sticky': isSticky }"
       ref="sticky"
     >
-      <div class="row">
+      <div class="row border">
         <div class="col-lg-12 d-none d-md-block">
           <div class="top-logo-area">
             <div class="logo text-md-center">
