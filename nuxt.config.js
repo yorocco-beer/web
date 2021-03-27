@@ -127,7 +127,7 @@ export default {
   ],
 
   gtm: {
-    id: 'GTM-GTM-T4GKMML'
+    id: 'GTM-T4GKMML'
   }
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
