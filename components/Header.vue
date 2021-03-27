@@ -6,7 +6,7 @@
       :class="{ 'is-sticky': isSticky }"
       ref="sticky"
     >
-      <div class="row border">
+      <div class="row header-border">
         <div class="col-lg-12 d-none d-md-block">
           <div class="top-logo-area">
             <div class="logo text-md-center">
@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="row align-items-center">
-        <div class="col-lg-3 col-lg-3 col-6">
+        <div class="col-lg-2 col-lg-2 col-6">
           <div
             class="header-right-items content__hidden d-none d-md-block"
           ></div>
@@ -35,7 +35,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6 col-lg-6 d-none d-lg-block">
+        <div class="col-lg-8 col-lg-8 d-none d-lg-block">
           <!-- navigation menu -->
           <div class="header__navigation d-none d-lg-block">
             <nav class="navigation-menu">
@@ -67,7 +67,7 @@
             </nav>
           </div>
         </div>
-        <div class="col-lg-3 col-lg-3 col-6">
+        <div class="col-lg-2 col-lg-2 col-6">
           <div class="header-right-side text-right">
             <div class="header-right-items">
               <a
