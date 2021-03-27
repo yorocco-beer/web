@@ -8,12 +8,12 @@
     height: 60px;
     padding: 11px 0px 0 10px;
   }
-  > .row {
-    border-bottom: 1px solid #e2ded1;
-  }
 }
 
 .header-sticky {
+  > .row {
+    border-bottom: 1px solid #e2ded1;
+  }
   &.is-sticky {
     position: fixed;
     top: 0;
