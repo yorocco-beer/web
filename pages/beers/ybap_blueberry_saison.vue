@@ -6,7 +6,7 @@
           <div class="row breadcrumb_box align-items-center">
             <div class="col-lg-12 col-md-12 col-sm-12">
               <!-- breadcrumb-list start -->
-              <ul class="breadcrumb-list text-center text-sm-right">
+              <ul class="breadcrumb-list text-center">
                 <li class="breadcrumb-item">
                   <NuxtLink to="/">Home</NuxtLink>
                 </li>
