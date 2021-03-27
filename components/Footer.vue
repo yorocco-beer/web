@@ -1,7 +1,7 @@
 <template>
   <div class="footer-area-wrapper">
     <div class="footer-copyright-area border-top section-space--ptb_30">
-      <div class="container-fluid container-fluid--cp-100">
+      <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-lg-6 col-md-6 order-md-1 order-1">
             <span class="copyright-text text-center text-md-left"
