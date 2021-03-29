@@ -31,10 +31,13 @@
 
 .c-mood-text {
   font-family: 'A1 Gothic R';
-  font-size: 14px;
+  font-size: 18px;
   line-height: 3;
   padding: 0 2vw;
   font-feature-settings: 'palt';
+  @media #{$large-mobile} {
+    font-size: 16px;
+  }
   p.text {
     color: #513b32;
     margin-bottom: 30px;
