@@ -6,6 +6,9 @@
 .c-mood-header {
   margin-bottom: 47px;
   font-feature-settings: 'palt';
+  &.with-divider {
+    margin-top: 38px;
+  }
   h1 {
     color: #324851;
     font-family: serif;
