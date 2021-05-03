@@ -1,6 +1,64 @@
+.c-mood-index {
+  font-family: 'A1 Gothic R';
+  padding-bottom: 80px;
+  .divider {
+    text-align: center;
+    font-size: 12px;
+    padding: 80px 0 100px;
+    @media #{$large-mobile} {
+      padding: 30px 0;
+    }
+  }
+}
+
+.c-mood-description {
+  font-size: 14px;
+  width: 700px;
+  margin: 0 auto;
+  padding: 100px 0 0;
+  line-height: 2;
+  font-feature-settings: 'palt';
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  @media #{$large-mobile} {
+    width: 100%;
+    font-size: 12px;
+    padding: 40px 10px 0;
+    margin-bottom: 0px;
+  }
+}
+
 .c-mood-content {
   padding-top: 57px;
   letter-spacing: 0.9px;
+}
+
+.c-mood-thumbnail {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+  @media #{$large-mobile} {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+  h1 {
+    font-feature-settings: 'palt';
+    font-family: 'Open Sans', sans-serif;
+    font-family: serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .by {
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+  }
 }
 
 .c-mood-header {
