@@ -47,10 +47,10 @@
                   別のフライパンでスパイスと挽肉を焼くように炒める。<br />
                   牛肉の割合が多い方がよく合う。<br />
                   炒めた玉葱と挽肉を合わせて炒め、
-                  トマトホール、バルサミコ酢、きび砂糖、塩、茹でた青大豆を合わせて煮込んでいく。<br />
+                  トマトホール、バルサミコ酢、きび砂糖、塩、<br />茹でた青大豆を合わせて煮込んでいく。<br />
                   仕上げに刻んだハラペーニョをいれ、味を整える。
                 </p>
-                <p class="divider">・</p>
+
                 <header class="c-mood-header with-divider">
                   <h1>フレッシュトマトサルサ</h1>
                   <h2>Fresh Tomato Salsa</h2>
@@ -90,7 +90,7 @@ import { defineComponent } from '@vue/composition-api'
 export default defineComponent({
   head: {
     title:
-      'ヨロッコビール / Yorocco Beer : Mood : vol.1 甘エビと鰆のフリット サルサヴェルデ添え',
+      'ヨロッコビール / Yorocco Beer : Mood : vol.2 青大豆のチリとフレッシュトマトサルサのタコス',
     meta: [
       {
         hid: 'og:url',
@@ -101,7 +101,7 @@ export default defineComponent({
         hid: 'og:title',
         property: 'og:title',
         content:
-          'ヨロッコビール / Yorocco Beer : Mood : vol.1 甘エビと鰆のフリット サルサヴェルデ添え',
+          'ヨロッコビール / Yorocco Beer : Mood : vol.2 青大豆のチリとフレッシュトマトサルサのタコス',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
