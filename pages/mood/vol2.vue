@@ -10,7 +10,9 @@
                 <li class="breadcrumb-item">
                   <NuxtLink to="/">Home</NuxtLink>
                 </li>
-                <li class="breadcrumb-item">Mood</li>
+                <li class="breadcrumb-item">
+                  <NuxtLink to="/mood">Mood</NuxtLink>
+                </li>
                 <li class="breadcrumb-item active">Vol.2</li>
               </ul>
               <!-- breadcrumb-list end -->

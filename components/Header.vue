@@ -44,7 +44,7 @@
                   <NuxtLink to="/beers"><span>BEERS</span></NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/mood/vol1"><span>MOOD</span></NuxtLink>
+                  <NuxtLink to="/mood"><span>MOOD</span></NuxtLink>
                 </li>
                 <li>
                   <a href="https://yorocco-beer.stores.jp/" target="_blank"
