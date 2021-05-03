@@ -10,8 +10,7 @@
                 <li class="breadcrumb-item">
                   <NuxtLink to="/">Home</NuxtLink>
                 </li>
-                <li class="breadcrumb-item">Mood</li>
-                <li class="breadcrumb-item active">Vol.2</li>
+                <li class="breadcrumb-item active">Mood</li>
               </ul>
               <!-- breadcrumb-list end -->
             </div>
@@ -24,7 +23,7 @@
         <img
           width="1480"
           height="987"
-          v-lazy="require('@/assets/img/mood/vol2.jpg')"
+          v-lazy="require('@/assets/img/mood/vol1.jpg')"
           class="img-fluid center"
           alt=""
         />
@@ -34,42 +33,46 @@
           <div class="col-md-8 col-sm-12">
             <div class="c-mood-content text-center">
               <header class="c-mood-header">
-                <h1>青大豆のチリ</h1>
-                <h2>Green Soybean Chili</h2>
+                <h1>
+                  甘エビと鰆のフリット <br />
+                  サルサヴェルデ添え
+                </h1>
+                <h2>
+                  Fritto Spanish Mackerel &amp; Northern Shrimp with Salsa Verde
+                </h2>
               </header>
 
               <div class="c-mood-text">
                 <p class="divider">・</p>
                 <p class="text with-divider">
-                  青大豆を一晩浸水し茹でる。<br />
-                  茹でる時にブラックペッパーやローリエを入れると良い。<br />
-                  みじん切りのにんにく、玉葱をよく炒める。<br />
-                  別のフライパンでスパイスと挽肉を焼くように炒める。<br />
-                  牛肉の割合が多い方がよく合う。<br />
-                  炒めた玉葱と挽肉を合わせて炒め、
-                  トマトホール、バルサミコ酢、きび砂糖、塩、茹でた青大豆を合わせて煮込んでいく。<br />
-                  仕上げに刻んだハラペーニョをいれ、味を整える。
-                </p>
-                <p class="divider">・</p>
-                <header class="c-mood-header with-divider">
-                  <h1>フレッシュトマトサルサ</h1>
-                  <h2>Fresh Tomato Salsa</h2>
-                </header>
-                <p class="divider">・</p>
-                <p class="text with-divider">
-                  トマトは横半分に切り種と水分を取り除く。<br />
-                  ざく切りにする。<br />
-                  赤玉葱をみじん切りにし、水にさらす。<br />
-                  香菜の芯、ほんの少しのにんにく、ハラペーニョをみじん切りにし加える。<br />
-                  水気をしっかり絞った赤玉葱を加える。<br />
-                  食べる寸前に塩、ほんの少しのきび砂糖、レモン汁で味をととのえる。
+                  サルサヴェルデをつくる。<br />
+                  グリーンのハーブをさっと洗い、太い茎を取り除く。<br />
+                  今回は香菜とフェンネル。<br />
+                  アンチョビ、ナッツ、塩、きび砂糖、バルサミコ、オリーブオイルを入れフードプロセッサーにかける。
                 </p>
                 <p class="text">
-                  ビーツのピクルス、アボガドディップ、フレッシュリーフ、<br />自家製ハラペーニョソースと一緒に。
+                  甘エビは頭と尻尾の剣をハサミで切る。<br />
+                  体の殻を取っておく。<br />
+                  鰆は適当な大きさに切り、塩を少々ふる。
                 </p>
-
+                <p class="text">
+                  衣をつくる。<br />
+                  小麦粉、塩にビールを入れ柔らかめに混ぜる。<br />
+                  ハーブがあればみじん切りにしていれる。
+                </p>
+                <p class="text">
+                  鰆はたっぷり、甘エビは体にだけ衣をつけ<br />180°cくらいの油で揚げる。
+                  <br />
+                  甘エビは体が先に揚がるのでトングなどを使いの頭をしっかり揚げる。
+                </p>
+                <p class="text">サルサヴェルデを添えていただく。</p>
                 <p class="divider">・</p>
-                <p class="date">2021.4.30</p>
+                <p class="side">
+                  <span>Dishes</span>
+                  挽肉と切り干し大根のトマト煮込み、プラムチーズとクラッカー
+                </p>
+                <p class="divider">・</p>
+                <p class="date">2021.3.23</p>
                 <p class="by">
                   Dishes : Ikuyo Segi
                   <br />
