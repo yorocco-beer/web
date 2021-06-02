@@ -13,7 +13,7 @@
                 <li class="breadcrumb-item">
                   <NuxtLink to="/mood">Mood</NuxtLink>
                 </li>
-                <li class="breadcrumb-item active">Vol.2</li>
+                <li class="breadcrumb-item active">Vol.3</li>
               </ul>
               <!-- breadcrumb-list end -->
             </div>
@@ -26,7 +26,7 @@
         <img
           width="1480"
           height="987"
-          v-lazy="require('@/assets/img/mood/vol2.jpg')"
+          v-lazy="require('@/assets/img/mood/vol3.jpg')"
           class="img-fluid center"
           alt=""
         />
@@ -36,42 +36,50 @@
           <div class="col-md-8 col-sm-12">
             <div class="c-mood-content text-center">
               <header class="c-mood-header">
-                <h1>青大豆のチリ</h1>
-                <h2>Green Soybean Chili</h2>
+                <h1>海老とアボガドの揚げ春巻き</h1>
+                <h2>Spring Roll with shrimps and avocado</h2>
               </header>
 
               <div class="c-mood-text">
                 <p class="divider">・</p>
                 <p class="text with-divider">
-                  青大豆を一晩浸水し茹でる。<br />
-                  茹でる時にブラックペッパーやローリエを入れると良い。<br />
-                  みじん切りのにんにく、玉葱をよく炒める。<br />
-                  別のフライパンでスパイスと挽肉を焼くように炒める。<br />
-                  牛肉の割合が多い方がよく合う。<br />
-                  炒めた玉葱と挽肉を合わせて炒め、
-                  トマトホール、バルサミコ酢、きび砂糖、塩、<br />茹でた青大豆を合わせて煮込んでいく。<br />
-                  仕上げに刻んだハラペーニョをいれ、味を整える。
+                  むき海老を包丁であらめに叩く。<br />
+                  赤玉葱のみじん切り、アボガドのあらみじん切りと合わせる。<br />
+                  塩、少しのきび砂糖、ナンプラーで味付ける。<br />
+                  春巻きの皮にのせ細く長く巻く。<br />
+                  170°Cくらいの油でカリッと揚げる。
                 </p>
 
                 <header class="c-mood-header with-divider">
-                  <h1>フレッシュトマトサルサ</h1>
-                  <h2>Fresh Tomato Salsa</h2>
+                  <h1>砂肝とズッキーニのナムル</h1>
+                  <h2>Giblets and Zucchini Namul</h2>
                 </header>
                 <p class="divider">・</p>
                 <p class="text with-divider">
-                  トマトは横半分に切り種と水分を取り除く。<br />
-                  ざく切りにする。<br />
-                  赤玉葱をみじん切りにし、水にさらす。<br />
-                  香菜の芯、ほんの少しのにんにく、ハラペーニョをみじん切りにし加える。<br />
-                  水気をしっかり絞った赤玉葱を加える。<br />
-                  食べる寸前に塩、ほんの少しのきび砂糖、レモン汁で味をととのえる。
+                  砂肝は硬い部分を取り除き、切れ込みを入れる。<br />
+                  塩、少しのきび砂糖で下味。 多めの油で焼く。<br />
+                  ズッキーニと人参はそれぞれ薄く、細く切り、
+                  塩をして余分な水分をとる。<br />
+                  かたくしぼり、焼いた砂肝と合わせる。<br />
+                  塩、豆板醤、生姜、蜂蜜、胡麻油を合わせたタレと手で和える。<br />
+                  最後に煎り胡麻で仕上げる。
                 </p>
-                <p class="text">
-                  ビーツのピクルス、アボガドディップ、フレッシュリーフ、<br />自家製ハラペーニョソースと一緒に。
+
+                <header class="c-mood-header with-divider">
+                  <h1>豆豉ポテト</h1>
+                  <h2>Potate salad with Douchi</h2>
+                </header>
+                <p class="divider">・</p>
+                <p class="text with-divider">
+                  じゃがいもを蒸す。<br />
+                  皮をむき、つぶす。<br />
+                  塩、刻んだ豆豉、胡麻油を加えまぜる。<br />
+                  アクセントで歯応えのよい野菜を加えてまぜる。<br />
+                  今回は絹さやを茹でで斜め切りしたもの。
                 </p>
 
                 <p class="divider">・</p>
-                <p class="date">2021.4.30</p>
+                <p class="date">2021.6.2</p>
                 <p class="by">
                   Dishes : Ikuyo Segi
                   <br />
@@ -92,18 +100,18 @@ import { defineComponent } from '@vue/composition-api'
 export default defineComponent({
   head: {
     title:
-      'ヨロッコビール / Yorocco Beer : Mood : vol.2 青大豆のチリとフレッシュトマトサルサのタコス',
+      'ヨロッコビール / Yorocco Beer : Mood : vol.3 海老とアボガドの揚げ春巻き',
     meta: [
       {
         hid: 'og:url',
         property: 'og:url',
-        content: `${process.env.BASE_URL}/mood/vol2/`,
+        content: `${process.env.BASE_URL}/mood/vol3/`,
       },
       {
         hid: 'og:title',
         property: 'og:title',
         content:
-          'ヨロッコビール / Yorocco Beer : Mood : vol.2 青大豆のチリとフレッシュトマトサルサのタコス',
+          'ヨロッコビール / Yorocco Beer : Mood : vol.3 海老とアボガドの揚げ春巻き',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
@@ -115,7 +123,7 @@ export default defineComponent({
       {
         hid: 'og:image',
         property: 'og:image',
-        content: `${process.env.BASE_URL}/ogp/mood/vol2.jpg`,
+        content: `${process.env.BASE_URL}/ogp/mood/vol3.jpg`,
       },
       {
         hid: 'twitter:card',
