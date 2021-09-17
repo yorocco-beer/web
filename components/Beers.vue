@@ -117,7 +117,7 @@
               <div class="single-product-item text-center">
                 <div class="products-images">
                   <NuxtLink
-                    to="/beers/ybap_blueberry_prana/"
+                    to="/beers/ybap_kinkan_brett_saison/"
                     class="product-thumbnail"
                   >
                     <img
@@ -157,7 +157,7 @@
                 </div>
                 <div class="product-content">
                   <h6 class="prodect-title">
-                    <NuxtLink to="/beers/ybap_blueberry_prana/"
+                    <NuxtLink to="/beers/ybap_barrel-blended-saison/"
                       ><span class="sub">Y/B/A/P #006</span>
                       Barrel Blended Saison
                     </NuxtLink>
