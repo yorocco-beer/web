@@ -112,6 +112,60 @@
               </div>
               <!-- Single Product Item End -->
             </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <!-- Single Product Item Start -->
+              <div class="single-product-item text-center">
+                <div class="products-images">
+                  <NuxtLink
+                    to="/beers/ybap_blueberry_prana/"
+                    class="product-thumbnail"
+                  >
+                    <img
+                      v-lazy="require('@/assets/img/beer/thumb5.jpg')"
+                      alt=""
+                      width="263"
+                      height="245"
+                    />
+                  </NuxtLink>
+                </div>
+                <div class="product-content">
+                  <h6 class="prodect-title">
+                    <NuxtLink to="/beers/ybap_kinkan_brett_saison/"
+                      ><span class="sub">Y/B/A/P #005</span>
+                      Kinkan Brett Saison
+                    </NuxtLink>
+                  </h6>
+                </div>
+              </div>
+              <!-- Single Product Item End -->
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <!-- Single Product Item Start -->
+              <div class="single-product-item text-center">
+                <div class="products-images">
+                  <NuxtLink
+                    to="/beers/ybap_barrel-blended-saison/"
+                    class="product-thumbnail"
+                  >
+                    <img
+                      v-lazy="require('@/assets/img/beer/thumb6.jpg')"
+                      alt=""
+                      width="263"
+                      height="245"
+                    />
+                  </NuxtLink>
+                </div>
+                <div class="product-content">
+                  <h6 class="prodect-title">
+                    <NuxtLink to="/beers/ybap_blueberry_prana/"
+                      ><span class="sub">Y/B/A/P #006</span>
+                      Barrel Blended Saison
+                    </NuxtLink>
+                  </h6>
+                </div>
+              </div>
+              <!-- Single Product Item End -->
+            </div>
           </div>
         </div>
       </div>
