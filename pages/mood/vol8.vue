@@ -21,6 +21,7 @@
         </div>
       </div>
     </div>
+
     <div class="single-product-wrap">
       <div class="mood-main">
         <img
