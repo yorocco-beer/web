@@ -70,7 +70,7 @@
                 </p>
 
                 <p class="divider">・</p>
-                <p class="date">2021.10.15</p>
+                <p class="date">2021.11.11</p>
                 <p class="by">
                   Dishes : Ikuyo Segi - オイチイチ -
                   <br />
