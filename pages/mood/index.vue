@@ -26,7 +26,7 @@
       <p class="divider">・</p>
 
       <div class="c-mood-thumbnail">
-        <NuxtLink to="/mood/vol17">
+        <NuxtLink to="/mood/vol18">
           <h1>September.2022</h1>
           <p class="by">Dishes : Ikuyo Segi, Picture : Yumi Saito</p>
           <img
