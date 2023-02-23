@@ -101,24 +101,24 @@ import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
   head: {
-    title: 'ヨロッコビール / Yorocco Beer : Y/B/A/P #002 Plum Plum Bon',
+    title: 'ヨロッコビール / Yorocco Beer : Y/B/A/P #010 Blueberry Quad',
     meta: [
       {
         hid: 'og:url',
         property: 'og:url',
-        content: `${process.env.BASE_URL}/beers/ybap_plum_plum_bon/`,
+        content: `${process.env.BASE_URL}/beers/ybap_blueberry-quad/`,
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'ヨロッコビール / Yorocco Beer : Y/B/A/P #002 Plum Plum Bon',
+        content: 'ヨロッコビール / Yorocco Beer : Y/B/A/P #010 Blueberry Quad',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:description', property: 'og:description', content: '' },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: `${process.env.BASE_URL}/ogp/2.jpg`,
+        content: `${process.env.BASE_URL}/ogp/10.png`,
       },
       {
         hid: 'twitter:card',
