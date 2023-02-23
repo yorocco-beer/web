@@ -71,7 +71,7 @@
             </div>
           </div>
 
-          <div class="product_socials section-space--mt_60 pb-20">
+          <div class="product_socials section-space--mt_60 pb-4">
             <span class="label">Share :</span>
             <ul class="helendo-social-share socials-inline">
               <li>
@@ -135,4 +135,3 @@ export default defineComponent({
   },
 })
 </script>
-
