@@ -3,7 +3,7 @@
     <my-header></my-header>
     <Nuxt />
     <my-footer></my-footer>
-    <a href="#" class="scroll-top" id="scroll-top">
+    <a id="scroll-top" href="#" class="scroll-top">
       <i class="arrow-top icon-arrow-up"></i>
       <i class="arrow-bottom icon-arrow-up"></i>
     </a>
@@ -12,7 +12,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api'
+import { defineComponent } from '@vue/composition-api'
 import MyHeader from '~/components/Header.vue'
 import MyFooter from '~/components/Footer.vue'
 import MenuOverlay from '~/components/MenuOverlay.vue'

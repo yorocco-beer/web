@@ -2,9 +2,9 @@
   <div class="header-area header-area--default">
     <!-- Header Bottom Wrap Start -->
     <header
+      ref="sticky"
       class="header-area header-sticky container-fluid"
       :class="{ 'is-sticky': isSticky }"
-      ref="sticky"
     >
       <div class="row header-border">
         <div class="col-lg-12 d-none d-md-block">
@@ -46,6 +46,9 @@
                 <li>
                   <NuxtLink to="/mood"><span>MOOD</span></NuxtLink>
                 </li>
+                <!-- <li>
+                  <NuxtLink to="/mood-trip"><span>MOOD Trip</span></NuxtLink>
+                </li> -->
                 <li>
                   <a href="https://yorocco-beer.stores.jp/" target="_blank"
                     ><span>ONLINE SHOP</span></a
@@ -71,9 +74,9 @@
           <div class="header-right-side text-right">
             <div class="header-right-items">
               <a
+                id="mobile-menu-trigger"
                 href="#"
                 class="mobile-navigation-icon"
-                id="mobile-menu-trigger"
                 @click="onOpenMenu"
               >
                 <i class="icon-menu"></i>
@@ -94,8 +97,8 @@ export default defineComponent({
     const sticky = ref<HTMLDivElement>()
     const isSticky = ref(false)
     onMounted(() => {
-      window.addEventListener('scroll', (ev) => {
-        var scroll = window.scrollY
+      window.addEventListener('scroll', () => {
+        const scroll = window.scrollY
         const headerHeight = sticky.value?.clientHeight
           ? sticky.value?.clientHeight
           : 0

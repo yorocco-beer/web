@@ -15,5 +15,6 @@
     "vegi",
     "ybap",
     "Yumi"
-  ]
+  ],
+  "editor.formatOnSave": true
 }

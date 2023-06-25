@@ -1,11 +1,11 @@
 <template>
-  <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+  <div id="mobile-menu-overlay" class="mobile-menu-overlay">
     <div class="mobile-menu-overlay__inner">
       <div class="mobile-menu-close-box text-left">
         <span
-          @click="onCloseMenu"
-          class="mobile-navigation-close-icon"
           id="mobile-menu-close-trigger"
+          class="mobile-navigation-close-icon"
+          @click="onCloseMenu"
         >
           <i class="icon-cross2"></i
         ></span>
@@ -23,6 +23,9 @@
             <li @click="onCloseMenu">
               <NuxtLink to="/mood"><span>MOOD</span></NuxtLink>
             </li>
+            <!-- <li @click="onCloseMenu">
+              <NuxtLink to="/mood-trip"><span>MOOD Trip</span></NuxtLink>
+            </li> -->
             <li>
               <a href="https://yorocco-beer.stores.jp/" target="_blank"
                 ><span>ONLINE SHOP</span></a
@@ -62,7 +65,7 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, onMounted, ref } from '@vue/composition-api'
+import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
   setup() {
