@@ -35,19 +35,11 @@
         <div class="row justify-content-center">
           <div class="col-md-8 col-sm-12">
             <div class="c-mood-content text-center">
-              <header class="c-mood-header">
-                <h1>MOODは食卓を離れることにしました。</h1>
-              </header>
-
               <div class="c-mood-text">
-                <p class="divider">・</p>
                 <p class="text with-divider">
-                  逆説的な言い方ですが、その時その場所でしか撮れない景色が、どこでも有ります。<br /><br />
-                  視点や角度を少しずらすだけで。
+                  その時、その場所でしか見れない光景と、
                   <br /><br />
-                  きっと日常の中にも。
-                  <br /><br />
-                  そんな光景をフォーカスしてゆけたらと思います。
+                  少し視点をずらすだけで、そこに在る景色。
                 </p>
 
                 <p class="divider">・</p>
@@ -95,7 +87,7 @@
                   alt=""
                 />
 
-                <p class="date">2021.3.23</p>
+                <p class="date">2023.3.23</p>
                 <p class="by">
                   Dishes : Ikuyo Segi
                   <br />
@@ -115,19 +107,17 @@ import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
   head: {
-    title:
-      'ヨロッコビール / Yorocco Beer : Mood : vol.1 甘エビと鰆のフリット サルサヴェルデ添え',
+    title: 'ヨロッコビール / Yorocco Beer : Mood Trip 1',
     meta: [
       {
         hid: 'og:url',
         property: 'og:url',
-        content: `${process.env.BASE_URL}/mood/vol1/`,
+        content: `${process.env.BASE_URL}/mood-trip/trip1`,
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content:
-          'ヨロッコビール / Yorocco Beer : Mood : vol.1 甘エビと鰆のフリット サルサヴェルデ添え',
+        content: 'ヨロッコビール / Yorocco Beer : Mood Trip 1',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
@@ -139,7 +129,7 @@ export default defineComponent({
       {
         hid: 'og:image',
         property: 'og:image',
-        content: `${process.env.BASE_URL}/ogp/mood/vol1.jpg`,
+        content: `${process.env.BASE_URL}/ogp/mood-trip/1.jpg`,
       },
       {
         hid: 'twitter:card',

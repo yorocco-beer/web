@@ -10,7 +10,7 @@
                 <li class="breadcrumb-item">
                   <NuxtLink to="/">Home</NuxtLink>
                 </li>
-                <li class="breadcrumb-item active">Mood</li>
+                <li class="breadcrumb-item active">Mood Trip</li>
               </ul>
               <!-- breadcrumb-list end -->
             </div>
@@ -20,6 +20,21 @@
     </div>
     <div class="c-mood-index">
       <div class="c-mood-description">“Somewhere AnyWhere.”</div>
+
+      <p class="divider">・</p>
+
+      <div class="c-mood-thumbnail">
+        <NuxtLink to="/mood-trip/trip2">
+          <h1>Jun.2023</h1>
+          <p class="by">Dishes : Ikuyo Segi, Picture : Yumi Saito</p>
+          <img
+            v-lazy="require('@/assets/img/mood-trip/trip2/main.jpg')"
+            width="600"
+            class="img-fluid center"
+            alt=""
+          />
+        </NuxtLink>
+      </div>
 
       <p class="divider">・</p>
 
