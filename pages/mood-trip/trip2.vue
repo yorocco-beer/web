@@ -86,21 +86,31 @@
                   class="img-fluid center my-5"
                   alt=""
                 />
+                <p class="divider">・</p>
                 <img
                   v-lazy="require('@/assets/img/mood-trip/trip2/7.jpg')"
                   class="img-fluid center my-5"
                   alt=""
                 />
+                <p class="divider">・</p>
                 <img
                   v-lazy="require('@/assets/img/mood-trip/trip2/8.jpg')"
                   class="img-fluid center my-5"
                   alt=""
                 />
+                <p class="divider">・</p>
                 <img
                   v-lazy="require('@/assets/img/mood-trip/trip2/9.jpg')"
                   class="img-fluid center my-5"
                   alt=""
                 />
+                <p class="divider">・</p>
+                <img
+                  v-lazy="require('@/assets/img/mood-trip/trip2/10.jpg')"
+                  class="img-fluid center my-5"
+                  alt=""
+                />
+                <p class="divider">・</p>
 
                 <p class="date">2023.6.28</p>
                 <p class="by">

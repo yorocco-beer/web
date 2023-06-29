@@ -87,6 +87,16 @@
                   alt=""
                 />
 
+                <p class="divider">・</p>
+
+                <img
+                  v-lazy="require('@/assets/img/mood-trip/trip1/7.jpg')"
+                  class="img-fluid center my-5"
+                  alt=""
+                />
+
+                <p class="divider">・</p>
+
                 <p class="date">2023.3.23</p>
                 <p class="by">
                   Dishes : Ikuyo Segi
