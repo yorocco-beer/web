@@ -45,8 +45,7 @@ export default {
       {
         rel: 'stylesheet',
         crossorigin: 'anonymous',
-        href:
-          'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css',
+        href: 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css',
       },
       {
         rel: 'preconnect',
@@ -54,18 +53,15 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Mr+De+Haviland&family=Prata&family=Roboto:wght@100;300;400;500;700;900&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Mr+De+Haviland&family=Prata&family=Roboto:wght@100;300;400;500;700;900&display=swap',
       },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap',
       },
       {
         rel: 'stylesheet',
-        href:
-          'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css',
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css',
       },
       {
         rel: 'apple-touch-icon',
@@ -94,14 +90,13 @@ export default {
     script: [
       {
         charset: 'utf-8',
-        src:
-          '//typesquare.com/3/tsst/script/ja/typesquare.js?s6dI9hHsrtw%3D&fadein=10',
+        src: '//typesquare.com/3/tsst/script/ja/typesquare.js?s6dI9hHsrtw%3D&fadein=10',
       },
     ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/scss/style.scss'],
+  css: ['@/assets/scss/style.scss', '@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: ['@/plugins/composition-api', '@/plugins/lazyload'],
@@ -134,7 +129,16 @@ export default {
   axios: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    postcss: {
+      postcssOptions: {
+        plugins: {
+          tailwindcss: {},
+          autoprefixer: {},
+        },
+      },
+    },
+  },
 
   generate: {
     routes() {
