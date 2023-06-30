@@ -23,9 +23,12 @@
             <li @click="onCloseMenu">
               <NuxtLink to="/mood"><span>MOOD</span></NuxtLink>
             </li>
-            <!-- <li @click="onCloseMenu">
+            <li @click="onCloseMenu">
               <NuxtLink to="/mood-trip"><span>MOOD Trip</span></NuxtLink>
-            </li> -->
+            </li>
+            <li @click="onCloseMenu">
+              <NuxtLink to="/pub"><span>PUB</span></NuxtLink>
+            </li>
             <li>
               <a href="https://yorocco-beer.stores.jp/" target="_blank"
                 ><span>ONLINE SHOP</span></a

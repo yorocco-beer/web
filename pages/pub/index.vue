@@ -27,6 +27,16 @@
           alt=""
         />
       </div>
+      <div class="pub-address">
+        <p>
+          16:00 OPEN<br />
+          22:00 CLOSE<br />
+          (food L.O 21:00 , beer L.O 21:30)
+        </p>
+        <small>
+          現在(仮)オープン中のため変更になる場合があります。7/15より(本)オープン予定です。
+        </small>
+      </div>
       <div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6511.433681582709!2d139.5424554!3d35.3130167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018452462b9a7a5%3A0xa43fa43ed86499fe!2z6Y6M5YCJ56y555uu5bqn!5e0!3m2!1sja!2sjp!4v1688053866708!5m2!1sja!2sjp"
