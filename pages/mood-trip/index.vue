@@ -24,6 +24,21 @@
       <p class="divider">・</p>
 
       <div class="c-mood-thumbnail">
+        <NuxtLink to="/mood-trip/trip3">
+          <h1>Jul.2023</h1>
+          <p class="by">Dishes : Ikuyo Segi, Picture : Yumi Saito</p>
+          <img
+            v-lazy="require('@/assets/img/mood-trip/trip3/main.jpg')"
+            width="600"
+            class="img-fluid center"
+            alt=""
+          />
+        </NuxtLink>
+      </div>
+
+      <p class="divider">・</p>
+
+      <div class="c-mood-thumbnail">
         <NuxtLink to="/mood-trip/trip2">
           <h1>Jun.2023</h1>
           <p class="by">Dishes : Ikuyo Segi, Picture : Yumi Saito</p>
