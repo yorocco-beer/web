@@ -128,7 +128,7 @@
 
                 <p class="date">2023.7.22</p>
                 <p class="by">
-                  Dishes : Ikuyo Segi
+                  Dishes : Sanae and Junpei Katsumi
                   <br />
                   Picture : Yumi Saito
                 </p>
