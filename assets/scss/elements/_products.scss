@@ -10,6 +10,7 @@
   .product-thumbnail {
     position: relative;
     display: block;
+
     &::after {
       position: absolute;
       content: '';
@@ -40,6 +41,9 @@
     & > img {
       width: 100%;
       height: auto;
+      aspect-ratio: 400/373;
+      object-fit: cover;
+      object-position: top;
     }
   }
   .product-actions {

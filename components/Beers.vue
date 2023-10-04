@@ -272,6 +272,56 @@
 
               <!-- Single Product Item End -->
             </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <!-- Single Product Item Start -->
+              <div class="single-product-item text-center">
+                <div class="products-images">
+                  <NuxtLink to="/beers/ybap_ume2021/" class="product-thumbnail">
+                    <img
+                      v-lazy="require('@/assets/img/beer/ybap/11.webp')"
+                      alt=""
+                      width="263"
+                    />
+                  </NuxtLink>
+                </div>
+                <div class="product-content">
+                  <h6 class="prodect-title">
+                    <NuxtLink to="/beers/ybap_ume2021/"
+                      ><span class="sub">Y/B/A/P #011</span>
+                      UME 2021
+                    </NuxtLink>
+                  </h6>
+                </div>
+              </div>
+              <!-- Single Product Item End -->
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <!-- Single Product Item Start -->
+              <div class="single-product-item text-center">
+                <div class="products-images">
+                  <NuxtLink
+                    to="/beers/ybap_sumomo_2021/"
+                    class="product-thumbnail"
+                  >
+                    <img
+                      v-lazy="require('@/assets/img/beer/ybap/12.webp')"
+                      alt=""
+                      width="263"
+                    />
+                  </NuxtLink>
+                </div>
+                <div class="product-content">
+                  <h6 class="prodect-title">
+                    <NuxtLink to="/beers/ybap_sumomo_2021/"
+                      ><span class="sub">Y/B/A/P #012</span>
+                      SUMOMO 2021
+                    </NuxtLink>
+                  </h6>
+                </div>
+              </div>
+              <!-- Single Product Item End -->
+            </div>
           </div>
         </div>
       </div>
