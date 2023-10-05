@@ -1,4 +1,4 @@
-import { createClient } from './plugins/contentful.js'
+// import { createClient } from './plugins/contentful.js'
 const environment = process.env.NODE_ENV || 'development'
 let envSet
 
@@ -140,19 +140,19 @@ export default {
     },
   },
 
-  generate: {
-    routes() {
-      const client = createClient()
-      return client
-        .getEntries({ content_type: process.env.CTFL_CONTENT_TYPE_POST })
-        .then((entries) => {
-          return entries.items.map((entry) => {
-            return {
-              route: '/blog/' + entry.sys.id,
-              payload: entry,
-            }
-          })
-        })
-    },
-  },
+  // generate: {
+  //   routes() {
+  //     const client = createClient()
+  //     return client
+  //       .getEntries({ content_type: process.env.CTFL_CONTENT_TYPE_POST })
+  //       .then((entries) => {
+  //         return entries.items.map((entry) => {
+  //           return {
+  //             route: '/blog/' + entry.sys.id,
+  //             payload: entry,
+  //           }
+  //         })
+  //       })
+  //   },
+  // },
 }
