@@ -21,25 +21,13 @@ jobs:
 
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setup Node.js and npm 🏗
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-
-      - name: Get npm cache directory path 🛠
-        id: npm-cache-dir-path
-        run: echo "::set-output name=dir::$(npm config get cache)"
-
-      - name: Cache node_modules 📦
-        uses: actions/cache@v2
-        id: npm-cache # use this to check for `cache-hit` (`steps.npm-cache.outputs.cache-hit != 'true'`)
-        with:
-          path: ${{ steps.npm-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-npm-
+          cache: 'npm' # 自動で npm cache を有効化
 
       - name: Install dependencies 👨🏻‍💻
-        run: npm install
+        run: npm ci
