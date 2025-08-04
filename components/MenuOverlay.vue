@@ -40,6 +40,9 @@
               >
             </li>
             <li>
+              <a href="/careers"><span>CAREERS</span></a>
+            </li>
+            <li>
               <a
                 href="https://yorocco-beer.blogspot.com/2020/09/blog-post.html"
                 target="_blank"
