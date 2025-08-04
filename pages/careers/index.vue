@@ -199,11 +199,19 @@
                 良縁をお待ちしております！<br /><br />
 
                 <a
-                  class="btn--lg"
+                  class="btn-border"
                   href="https://docs.google.com/forms/d/e/1FAIpQLSeioPL1YrUsdC-TKjUa0dJMZ_J0Op40cgNUVH_R0QPVls3i0A/viewform?pli=1"
                   style="margin-bottom: 4rem"
                   >応募フォーム</a
                 >
+
+                <p style="font-size: 0.8rem">
+                  ご質問等がございましたら info@yorocco-beer.com
+                  までご連絡ください。<br />
+                  ※今回のスタッフ募集に関係のない事柄はご遠慮ください。
+                </p>
+
+                <br />
 
                 <p class="divider">・</p>
 
